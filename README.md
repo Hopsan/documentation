@@ -1,2 +1,0 @@
-# documentation
-Hopsan User Documentation
