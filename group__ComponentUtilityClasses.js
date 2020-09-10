@@ -18,7 +18,11 @@ var group__ComponentUtilityClasses =
       [ "getNumDataRows", "classhopsan_1_1CSVParserNG.html#a82ab85c3e82d5e24ea5aba56eec6d916", null ],
       [ "indexFile", "classhopsan_1_1CSVParserNG.html#a50c8f05c5f8cf001ae822048e18bad2f", null ],
       [ "openFile", "classhopsan_1_1CSVParserNG.html#aaf5b78093258629f9d23b8dfe133c79f", null ],
+      [ "openText", "classhopsan_1_1CSVParserNG.html#ab16d55ee2ad3fe6f6d2c4284be71836b", null ],
+      [ "setCommentChar", "classhopsan_1_1CSVParserNG.html#a5bc0d5eacf7b199e97fc4f1fd0fa2f57", null ],
       [ "setFieldSeparator", "classhopsan_1_1CSVParserNG.html#a6fb315a6eb3214e3f3cacf8bc161edea", null ],
+      [ "setLinesToSkip", "classhopsan_1_1CSVParserNG.html#aa5f6beccda37a6833504870e53e483c8", null ],
+      [ "takeOwnershipOfFile", "classhopsan_1_1CSVParserNG.html#a3348ad8debe2033d0025c82f2703e11f", null ],
       [ "mConvertDecimalSeparator", "classhopsan_1_1CSVParserNG.html#a8f3f09e081e7f9620ebfe302681e41e4", null ],
       [ "mErrorString", "classhopsan_1_1CSVParserNG.html#a0340909b204fcc64f96049520607750b", null ],
       [ "mpCsvParser", "classhopsan_1_1CSVParserNG.html#a7279f3c9a3cff9eeb30ad20fcfac279b", null ]
@@ -60,9 +64,9 @@ var group__ComponentUtilityClasses =
     [ "EquationSystemSolver", "classhopsan_1_1EquationSystemSolver.html", [
       [ "EquationSystemSolver", "classhopsan_1_1EquationSystemSolver.html#a510a055fc92d7d9426275a29443f01da", null ],
       [ "EquationSystemSolver", "classhopsan_1_1EquationSystemSolver.html#aa5226b37f1eb305e91f07ae20c880df5", null ],
-      [ "solve", "classhopsan_1_1EquationSystemSolver.html#ad032cc07fc7dea214d556d409bac7731", null ],
+      [ "solve", "classhopsan_1_1EquationSystemSolver.html#af7d39f0eac0af0ed5785935ac72a1e7d", null ],
       [ "solve", "classhopsan_1_1EquationSystemSolver.html#a491561e57a5261cf4b97f76bb98a1029", null ],
-      [ "solve", "classhopsan_1_1EquationSystemSolver.html#af7d39f0eac0af0ed5785935ac72a1e7d", null ]
+      [ "solve", "classhopsan_1_1EquationSystemSolver.html#ad032cc07fc7dea214d556d409bac7731", null ]
     ] ],
     [ "NumericalIntegrationSolver", "classhopsan_1_1NumericalIntegrationSolver.html", [
       [ "callback_function", "classhopsan_1_1NumericalIntegrationSolver.html#a5f4af01908bceb32bbbf47d486ca9304", null ],
@@ -114,8 +118,8 @@ var group__ComponentUtilityClasses =
       [ "operator[]", "classhopsan_1_1Vec.html#a134df0180d2a063663e0b68da9b533a1", null ],
       [ "print", "classhopsan_1_1Vec.html#acd0f82d3c49b8a5dd436d4003c44b713", null ],
       [ "set", "classhopsan_1_1Vec.html#a589ceb166bc112a578f878176defcb80", null ],
-      [ "operator*", "classhopsan_1_1Vec.html#af5342bd4ef48c05b6efeed762f1cf173", null ],
       [ "operator*", "classhopsan_1_1Vec.html#a345e477fdddc738f27724621fb99b3cb", null ],
+      [ "operator*", "classhopsan_1_1Vec.html#af5342bd4ef48c05b6efeed762f1cf173", null ],
       [ "operator+", "classhopsan_1_1Vec.html#af4e08d31dd74e710b3d7b14267381597", null ],
       [ "operator-", "classhopsan_1_1Vec.html#a959e17fc5ef191c8d17f6219f54136d1", null ],
       [ "operator/", "classhopsan_1_1Vec.html#a20994a1bc9f7068a31b0d2dfd08cc1be", null ]
@@ -141,8 +145,8 @@ var group__ComponentUtilityClasses =
     [ "PLOParser", "classhopsan_1_1PLOParser.html", [
       [ "PLOParser", "classhopsan_1_1PLOParser.html#ad0b8300f052be6ac8a42fe4eab8aa35c", null ],
       [ "clearData", "classhopsan_1_1PLOParser.html#abd4e5c937c4b98dd42745acb33815cdf", null ],
-      [ "copyColumn", "classhopsan_1_1PLOParser.html#a78dc669e0ec49f9d3cabfb13a6bf15f0", null ],
       [ "copyColumn", "classhopsan_1_1PLOParser.html#a87b0f826868e5598426a4c85984a0779", null ],
+      [ "copyColumn", "classhopsan_1_1PLOParser.html#a78dc669e0ec49f9d3cabfb13a6bf15f0", null ],
       [ "copyRow", "classhopsan_1_1PLOParser.html#ae6b9462fa87c06a915b524c938fa62dd", null ],
       [ "eof", "classhopsan_1_1PLOParser.html#af3418ac60d0d7a303478f29a387feb3c", null ],
       [ "getColIdxForDataName", "classhopsan_1_1PLOParser.html#a5ebef12c0e8189c9c777ad228784da93", null ],
@@ -153,12 +157,14 @@ var group__ComponentUtilityClasses =
       [ "getPloFileVersion", "classhopsan_1_1PLOParser.html#a9aca7e5a30cd44a311549949ef3cf87f", null ],
       [ "isEmpty", "classhopsan_1_1PLOParser.html#acf82f9b2937375c7b1cf3dccb3df3312", null ],
       [ "readFile", "classhopsan_1_1PLOParser.html#a2647aa648a6a2c5721e9bb9d73efa48a", null ],
+      [ "readFile", "classhopsan_1_1PLOParser.html#a7642825c6266913a1046dda207974b23", null ],
+      [ "readText", "classhopsan_1_1PLOParser.html#a06dd4ecd4a8155d87bb185c5f19a1ef0", null ],
       [ "mData", "classhopsan_1_1PLOParser.html#ac08be9831fb449fe041ae313e56899ff", null ],
       [ "mDataNames", "classhopsan_1_1PLOParser.html#a309c19e0eb0043e09156e05db9c9d934", null ],
       [ "mErrorString", "classhopsan_1_1PLOParser.html#a0340909b204fcc64f96049520607750b", null ],
       [ "mNumDataCols", "classhopsan_1_1PLOParser.html#a4cc68dfa7bcac57d3a2d6d9f8eec5fd6", null ],
       [ "mNumDataRows", "classhopsan_1_1PLOParser.html#a72d94a2ec6794fd547bbbe926942f59b", null ],
-      [ "mPlotScales", "classhopsan_1_1PLOParser.html#af67d4a44f3db76d684ae1975a18a4a1f", null ],
+      [ "mPlotQuantitiesOrScales", "classhopsan_1_1PLOParser.html#aac2c20e9992d491281a3086862a87d85", null ],
       [ "mPloVersion", "classhopsan_1_1PLOParser.html#a26ac2cbcdd34f84e7e211aab8618c726", null ]
     ] ],
     [ "TurbulentFlowFunction", "classhopsan_1_1TurbulentFlowFunction.html", [

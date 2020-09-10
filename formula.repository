@@ -1,27 +1,27 @@
-\form#0:$\alpha$
-\form#1:$\beta$
-\form#2:$\gamma$
-\form#3:$(x_{w})$
-\form#4:$(x_{c})$
-\form#5:$x_{new}=x_{c}+\alpha(x_{c}-x_{w})+r$
-\form#6:$p_{i}=x_{i}$
-\form#7:$(\omega)$
-\form#8:$(\phi_{p})$
-\form#9:$(\phi_{g})$
-\form#10:$(r_{p},r_{g})$
-\form#11:$v_{i} = \omega v_{i}+\phi_{p}r_{p}(p_{i}-x_{i})+\phi_{g}r_{g}(g-x_{i})$
-\form#12:$if(f(x_{i})>f(p_{i})): p_{i}=x_{i}$
-\form#13:$if(f(p_{i})>f(g)): g=p_{i}$
-\form#14:$J*b = x$
-\form#15:$L*U*b = x$
-\form#16:$U*b = y$
-\form#17:$L*y = x$
-\form#18:\[G=\frac{a_1 s + a_0}{b_1 s + b_0}\]
-\form#19:$num[0]=a_0$
-\form#20:$num[1]=a_1$
-\form#21:$den[0]=b_0$
-\form#22:$den[1]=b_1$
-\form#23:\[ y = \int_{0}^{t} \left\{ \begin{array}{ll} 0 & \mbox{if } \int u \, dt + y_0 < y_{min} \\ 0 & \mbox{if } \int u \, dt + y_0 > y_{max} \\ u & \mbox{otherwise} \end{array} \right. \, dt + y_0\]
-\form#24:\[G=\frac{a_2 s^2 + a_1 s + a_0}{b_2 s^2 + b_1 s + b_0}\]
-\form#25:$num[2]=a_2$
-\form#26:$den[2]=b_2$
+\_form#0=8x6:$\alpha$
+\_form#1=9x13:$\beta$
+\_form#2=9x9:$\gamma$
+\_form#3=24x14:$(x_{w})$
+\_form#4=21x14:$(x_{c})$
+\_form#5=153x14:$x_{new}=x_{c}+\alpha(x_{c}-x_{w})+r$
+\_form#6=39x9:$p_{i}=x_{i}$
+\_form#7=16x14:$(\omega)$
+\_form#8=21x14:$(\phi_{p})$
+\_form#9=23x14:$(\phi_{g})$
+\_form#10=38x14:$(r_{p},r_{g})$
+\_form#11=214x14:$v_{i} = \omega v_{i}+\phi_{p}r_{p}(p_{i}-x_{i})+\phi_{g}r_{g}(g-x_{i})$
+\_form#12=143x14:$if(f(x_{i})>f(p_{i})): p_{i}=x_{i}$
+\_form#13=134x14:$if(f(p_{i})>f(g)): g=p_{i}$
+\_form#14=49x10:$J*b = x$
+\_form#15=71x10:$L*U*b = x$
+\_form#16=50x13:$U*b = y$
+\_form#17=50x13:$L*y = x$
+\_form#18=74x28:\[G=\frac{a_1 s + a_0}{b_1 s + b_0}\]
+\_form#19=68x14:$num[0]=a_0$
+\_form#20=68x14:$num[1]=a_1$
+\_form#21=60x14:$den[0]=b_0$
+\_form#22=59x14:$den[1]=b_1$
+\_form#23=243x46:\[ y = \int_{0}^{t} \left\{ \begin{array}{ll} 0 & \mbox{if } \int u \, dt + y_0 < y_{min} \\ 0 & \mbox{if } \int u \, dt + y_0 > y_{max} \\ u & \mbox{otherwise} \end{array} \right. \, dt + y_0\]
+\_form#24=113x30:\[G=\frac{a_2 s^2 + a_1 s + a_0}{b_2 s^2 + b_1 s + b_0}\]
+\_form#25=68x14:$num[2]=a_2$
+\_form#26=60x14:$den[2]=b_2$

@@ -1,6 +1,13 @@
 var userScriptingPage =
 [
     [ "HCOM Scripting", "userScriptingPageHcomPage.html", [
+      [ "HCOM", "userScriptingPage.html#autotoc_md0", null ],
+      [ "EmbeddedScript (NumHop)", "userScriptingPage.html#autotoc_md1", null ],
+      [ "Control Flow", "userScriptingPageHcomPage.html#controlflow", [
+        [ "If statements", "userScriptingPageHcomPage.html#ifstatements", null ],
+        [ "While loops", "userScriptingPageHcomPage.html#whileloops", null ],
+        [ "Foreach loops", "userScriptingPageHcomPage.html#foreachloops", null ]
+      ] ],
       [ "Simulation Commands", "userScriptingPageHcomPage.html#simulationcommands", [
         [ "sim", "userScriptingPageHcomPage.html#sim", null ],
         [ "chss", "userScriptingPageHcomPage.html#chss", null ],
@@ -30,6 +37,7 @@ var userScriptingPage =
         [ "sapl", "userScriptingPageHcomPage.html#sapl", null ],
         [ "repl", "userScriptingPageHcomPage.html#repl", null ],
         [ "bode", "userScriptingPageHcomPage.html#bode", null ],
+        [ "nyquist", "userScriptingPageHcomPage.html#nyquist", null ],
         [ "lock", "userScriptingPageHcomPage.html#lock", null ],
         [ "lockyl", "userScriptingPageHcomPage.html#lockyl", null ],
         [ "lockyr", "userScriptingPageHcomPage.html#lockyr", null ],
@@ -59,6 +67,7 @@ var userScriptingPage =
         [ "poke", "userScriptingPageHcomPage.html#poke", null ],
         [ "alias", "userScriptingPageHcomPage.html#alias", null ],
         [ "rmvar", "userScriptingPageHcomPage.html#rmvar", null ],
+        [ "dihg", "userScriptingPageHcomPage.html#dihg", null ],
         [ "sequ", "userScriptingPageHcomPage.html#sequ", null ],
         [ "ivpv", "userScriptingPageHcomPage.html#ivpv", null ],
         [ "sepl", "userScriptingPageHcomPage.html#sepl", null ],
@@ -106,6 +115,7 @@ var userScriptingPage =
         [ "fft()", "userScriptingPageHcomPage.html#fft", null ],
         [ "floor()", "userScriptingPageHcomPage.html#floor", null ],
         [ "gt()", "userScriptingPageHcomPage.html#gt", null ],
+        [ "hg()", "userScriptingPageHcomPage.html#hg", null ],
         [ "imax()", "userScriptingPageHcomPage.html#imax", null ],
         [ "imin()", "userScriptingPageHcomPage.html#imin", null ],
         [ "int()", "userScriptingPageHcomPage.html#int", null ],
@@ -131,85 +141,6 @@ var userScriptingPage =
         [ "vector()", "userScriptingPageHcomPage.html#vector", null ],
         [ "x()", "userScriptingPageHcomPage.html#x", null ],
         [ "zeros()", "userScriptingPageHcomPage.html#zeros", null ]
-      ] ]
-    ] ],
-    [ "Python Scripting", "userScriptingPagePythonPage.html", [
-      [ "Message Commands", "userScriptingPagePythonPage.html#PyMessageCommands", [
-        [ "printMessage(message)", "userScriptingPagePythonPage.html#printMessage", null ],
-        [ "printInfo(message)", "userScriptingPagePythonPage.html#printInfo", null ],
-        [ "printWarning(message)", "userScriptingPagePythonPage.html#printWarning", null ],
-        [ "printError(message)", "userScriptingPagePythonPage.html#printError", null ]
-      ] ],
-      [ "Model Commands", "userScriptingPagePythonPage.html#PyModelCommands", [
-        [ "newModel()", "userScriptingPagePythonPage.html#newmodel", null ],
-        [ "loadModel(modelFileName)", "userScriptingPagePythonPage.html#loadmodel", null ],
-        [ "closeAllModels()", "userScriptingPagePythonPage.html#closeallmodels", null ],
-        [ "gotoTab(tab)", "userScriptingPagePythonPage.html#gototab", null ],
-        [ "enterSystem(sysName)", "userScriptingPagePythonPage.html#entersystem", null ],
-        [ "exitSystem()", "userScriptingPagePythonPage.html#exitsystem", null ]
-      ] ],
-      [ "Simulation Commands", "userScriptingPagePythonPage.html#PySimulationCommands", [
-        [ "setStartTime(start)", "userScriptingPagePythonPage.html#setStartTime", null ],
-        [ "setTimeStep(timestep)", "userScriptingPagePythonPage.html#setTimeStep", null ],
-        [ "setFinishTime(stop)", "userScriptingPagePythonPage.html#setFinishTime", null ],
-        [ "startTime()", "userScriptingPagePythonPage.html#startTime", null ],
-        [ "timeStep()", "userScriptingPagePythonPage.html#timeStep", null ],
-        [ "finishTime()", "userScriptingPagePythonPage.html#finishTime", null ],
-        [ "simulate()", "userScriptingPagePythonPage.html#simulate", null ],
-        [ "getSimulationTime()", "userScriptingPagePythonPage.html#getSimulationTime", null ],
-        [ "openAbortDialog(text)", "userScriptingPagePythonPage.html#openAbortDialog", null ],
-        [ "isAborted()", "userScriptingPagePythonPage.html#isAborted", null ],
-        [ "abort()", "userScriptingPagePythonPage.html#abort", null ]
-      ] ],
-      [ "Simulation Options", "userScriptingPagePythonPage.html#PySimulationOptions", [
-        [ "useMultiCore(tf)", "userScriptingPagePythonPage.html#useMultiCore", null ],
-        [ "setNumberOfThreads(value)", "userScriptingPagePythonPage.html#setNumberOfThreads", null ],
-        [ "enableProgressBar(tf)", "userScriptingPagePythonPage.html#enableProgressBar", null ]
-      ] ],
-      [ "Model Access and Manipulation", "userScriptingPagePythonPage.html#PyModelAccess", [
-        [ "component(compName)", "userScriptingPagePythonPage.html#component", null ],
-        [ "componentNames()", "userScriptingPagePythonPage.html#componentNames", null ],
-        [ "addComponent(name, typename, x, y, rotation)", "userScriptingPagePythonPage.html#addComponent", null ],
-        [ "connect(compName1, portName1, compName2, portName2)", "userScriptingPagePythonPage.html#connect", null ],
-        [ "clearComponents()", "userScriptingPagePythonPage.html#clearComponents", null ]
-      ] ],
-      [ "Parameter Access", "userScriptingPagePythonPage.html#PyParameterAccess", [
-        [ "gparameter(compName, parName)", "userScriptingPagePythonPage.html#parameter", null ],
-        [ "setParameter(compName, parName, value)", "userScriptingPagePythonPage.html#setParameter", null ],
-        [ "setSystemParameter(parName, value)", "userScriptingPagePythonPage.html#setSystemParameter", null ]
-      ] ],
-      [ "Plot Functions", "userScriptingPagePythonPage.html#PyPlotFunctions", [
-        [ "plot(compName, portName, dataName, gen)", "userScriptingPagePythonPage.html#plot", null ],
-        [ "plot(alias, gen)", "userScriptingPagePythonPage.html#plot2", null ],
-        [ "plot(VectorVariable)", "userScriptingPagePythonPage.html#plot3", null ],
-        [ "figure(name)", "userScriptingPagePythonPage.html#figure", null ],
-        [ "savePlotDataCSV(fileName)", "userScriptingPagePythonPage.html#savePlotDataCSV", null ],
-        [ "savePlotDataPLO(fileName)", "userScriptingPagePythonPage.html#savePlotDataPLO", null ]
-      ] ],
-      [ "Variable Access", "userScriptingPagePythonPage.html#PyVariableAccess", [
-        [ "getVariable(compName, portName, dataName, gen)", "userScriptingPagePythonPage.html#getVariable", null ],
-        [ "getVariable(name, gen)", "userScriptingPagePythonPage.html#getVariable2", null ],
-        [ "addVectorVariable(name, data)", "userScriptingPagePythonPage.html#addVectorVariable", null ],
-        [ "addTimeVariable(name, time, data)", "userScriptingPagePythonPage.html#addTimeVariable", null ],
-        [ "addFrequencyVariable(name, freq, data)", "userScriptingPagePythonPage.html#addFrequencyVariable", null ]
-      ] ],
-      [ "Component Python Handle Commands", "userScriptingPagePythonPage.html#componentCommands", [
-        [ "port(portName)", "userScriptingPagePythonPage.html#port", null ],
-        [ "portNames()", "userScriptingPagePythonPage.html#portNames", null ]
-      ] ],
-      [ "Port Python Handle Commands", "userScriptingPagePythonPage.html#portCommands", [
-        [ "plot(dataName)", "userScriptingPagePythonPage.html#portplot", null ],
-        [ "lastData(dataName)", "userScriptingPagePythonPage.html#lastData", null ],
-        [ "data(dataName)", "userScriptingPagePythonPage.html#getdatavector", null ],
-        [ "time()", "userScriptingPagePythonPage.html#gettimevector", null ],
-        [ "variable(dataName)", "userScriptingPagePythonPage.html#variable", null ],
-        [ "variableNames()", "userScriptingPagePythonPage.html#variableNames", null ]
-      ] ],
-      [ "VectorVariable Python Handle Commands", "userScriptingPagePythonPage.html#variableCommands", [
-        [ "variableType()", "userScriptingPagePythonPage.html#varibaleType", null ],
-        [ "frequency()", "userScriptingPagePythonPage.html#frequency", null ],
-        [ "data()", "userScriptingPagePythonPage.html#data", null ],
-        [ "assign(data)", "userScriptingPagePythonPage.html#assign", null ]
       ] ]
     ] ],
     [ "NumHop Scripting", "userScriptingPageNumHopPage.html", null ]

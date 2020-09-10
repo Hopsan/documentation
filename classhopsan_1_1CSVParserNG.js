@@ -17,7 +17,11 @@ var classhopsan_1_1CSVParserNG =
     [ "getNumDataRows", "classhopsan_1_1CSVParserNG.html#a82ab85c3e82d5e24ea5aba56eec6d916", null ],
     [ "indexFile", "classhopsan_1_1CSVParserNG.html#a50c8f05c5f8cf001ae822048e18bad2f", null ],
     [ "openFile", "classhopsan_1_1CSVParserNG.html#aaf5b78093258629f9d23b8dfe133c79f", null ],
+    [ "openText", "classhopsan_1_1CSVParserNG.html#ab16d55ee2ad3fe6f6d2c4284be71836b", null ],
+    [ "setCommentChar", "classhopsan_1_1CSVParserNG.html#a5bc0d5eacf7b199e97fc4f1fd0fa2f57", null ],
     [ "setFieldSeparator", "classhopsan_1_1CSVParserNG.html#a6fb315a6eb3214e3f3cacf8bc161edea", null ],
+    [ "setLinesToSkip", "classhopsan_1_1CSVParserNG.html#aa5f6beccda37a6833504870e53e483c8", null ],
+    [ "takeOwnershipOfFile", "classhopsan_1_1CSVParserNG.html#a3348ad8debe2033d0025c82f2703e11f", null ],
     [ "mConvertDecimalSeparator", "classhopsan_1_1CSVParserNG.html#a8f3f09e081e7f9620ebfe302681e41e4", null ],
     [ "mErrorString", "classhopsan_1_1CSVParserNG.html#a0340909b204fcc64f96049520607750b", null ],
     [ "mpCsvParser", "classhopsan_1_1CSVParserNG.html#a7279f3c9a3cff9eeb30ad20fcfac279b", null ]

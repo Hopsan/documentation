@@ -17,8 +17,8 @@ var classhopsan_1_1Vec =
     [ "operator[]", "classhopsan_1_1Vec.html#a134df0180d2a063663e0b68da9b533a1", null ],
     [ "print", "classhopsan_1_1Vec.html#acd0f82d3c49b8a5dd436d4003c44b713", null ],
     [ "set", "classhopsan_1_1Vec.html#a589ceb166bc112a578f878176defcb80", null ],
-    [ "operator*", "classhopsan_1_1Vec.html#af5342bd4ef48c05b6efeed762f1cf173", null ],
     [ "operator*", "classhopsan_1_1Vec.html#a345e477fdddc738f27724621fb99b3cb", null ],
+    [ "operator*", "classhopsan_1_1Vec.html#af5342bd4ef48c05b6efeed762f1cf173", null ],
     [ "operator+", "classhopsan_1_1Vec.html#af4e08d31dd74e710b3d7b14267381597", null ],
     [ "operator-", "classhopsan_1_1Vec.html#a959e17fc5ef191c8d17f6219f54136d1", null ],
     [ "operator/", "classhopsan_1_1Vec.html#a20994a1bc9f7068a31b0d2dfd08cc1be", null ]

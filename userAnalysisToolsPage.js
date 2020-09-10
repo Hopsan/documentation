@@ -7,7 +7,7 @@ var userAnalysisToolsPage =
       [ "Example", "userEnergyLossesPage.html#energy_example", null ]
     ] ],
     [ "Frequency Analysis", "userFrequencyAnalysisPage.html", [
-      [ "Function Analysis", "userFrequencyAnalysisPage.html#Transfer", [
+      [ "and Nyquist plots", "userFrequencyAnalysisPage.html#Bode", [
         [ "Hints", "userFrequencyAnalysisPage.html#tfahints", null ]
       ] ],
       [ "Spectrum", "userFrequencyAnalysisPage.html#Frequency", null ]

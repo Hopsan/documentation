@@ -4,8 +4,7 @@ var userGettingStartedPage =
       [ "Toolbar", "overview.html#toolbar", null ],
       [ "Workspace", "overview.html#workspace", null ],
       [ "Library", "overview.html#library", null ],
-      [ "Message Widget", "overview.html#message-widget", null ],
-      [ "Python Widget", "overview.html#python-widget", null ]
+      [ "Message Widget", "overview.html#message-widget", null ]
     ] ],
     [ "Building a model", "building-a-model.html", [
       [ "Adding Components", "building-a-model.html#adding-components", null ],

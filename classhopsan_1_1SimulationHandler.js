@@ -7,9 +7,9 @@ var classhopsan_1_1SimulationHandler =
       [ "FiniFailed", "classhopsan_1_1SimulationHandler.html#a01e6f1f870537c8fd6db22bfc039a8cfae307129ee13cee550c15bd5f74e0e45b", null ]
     ] ],
     [ "finalizeSystem", "classhopsan_1_1SimulationHandler.html#a89a466f2a70d30b4d7d74de00fa14f03", null ],
-    [ "finalizeSystem", "classhopsan_1_1SimulationHandler.html#aee61cd5db58aa065774751b60da4b375", null ],
+    [ "finalizeSystem", "classhopsan_1_1SimulationHandler.html#a0789aee86fdf0be903238ccd4569bd07", null ],
     [ "initializeSystem", "classhopsan_1_1SimulationHandler.html#a6367149bf6290415e168160b6f0b238c", null ],
-    [ "initializeSystem", "classhopsan_1_1SimulationHandler.html#ae575dc5d658e9c35f17c5112fe140a98", null ],
+    [ "initializeSystem", "classhopsan_1_1SimulationHandler.html#a78704a76e64b8539ea015a675691ab96", null ],
     [ "simulateSystem", "classhopsan_1_1SimulationHandler.html#a0a69042b6fad0b05e344b4d1e278cc5f", null ],
-    [ "simulateSystem", "classhopsan_1_1SimulationHandler.html#ab7091389c8da115d25891a72d206cf58", null ]
+    [ "simulateSystem", "classhopsan_1_1SimulationHandler.html#ae8b5942309e793454dcc1867ec86b079", null ]
 ];

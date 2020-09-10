@@ -6,8 +6,7 @@ var hierarchy =
       [ "ComponentC", "classhopsan_1_1ComponentC.html", null ],
       [ "ComponentQ", "classhopsan_1_1ComponentQ.html", null ],
       [ "ComponentSignal", "classhopsan_1_1ComponentSignal.html", [
-        [ "DummyComponent", "classhopsan_1_1DummyComponent.html", null ],
-        [ "ModelicaComponent", "classhopsan_1_1ModelicaComponent.html", null ]
+        [ "DummyComponent", "classhopsan_1_1DummyComponent.html", null ]
       ] ],
       [ "ComponentSystem", "classhopsan_1_1ComponentSystem.html", [
         [ "ConditionalComponentSystem", "classhopsan_1_1ConditionalComponentSystem.html", null ]
@@ -29,7 +28,9 @@ var hierarchy =
     [ "HopsanCoreMessageHandler", "classhopsan_1_1HopsanCoreMessageHandler.html", null ],
     [ "HopsanEssentials", "classhopsan_1_1HopsanEssentials.html", null ],
     [ "HopsanExternalLibInfo", "structhopsan_1_1HopsanExternalLibInfo.html", null ],
-    [ "HString", "classhopsan_1_1HString.html", null ],
+    [ "HString", "classhopsan_1_1HString.html", [
+      [ "HTextBlock", "classhopsan_1_1HTextBlock.html", null ]
+    ] ],
     [ "HVector< T >", "classhopsan_1_1HVector.html", null ],
     [ "HydraulicNodeDataPointerStructT", "classhopsan_1_1HydraulicNodeDataPointerStructT.html", null ],
     [ "HydraulicNodeDataValueStructT", "classhopsan_1_1HydraulicNodeDataValueStructT.html", null ],
@@ -37,6 +38,7 @@ var hierarchy =
       [ "IntegratorWithBackup", "classhopsan_1_1IntegratorWithBackup.html", null ]
     ] ],
     [ "IntegratorLimited", "classhopsan_1_1IntegratorLimited.html", null ],
+    [ "KinsolSolver", "classhopsan_1_1KinsolSolver.html", null ],
     [ "LoadedLibInfo", "classhopsan_1_1LoadedLibInfo.html", null ],
     [ "LoadExternal", "classhopsan_1_1LoadExternal.html", null ],
     [ "LookupTableNDBase", "classLookupTableNDBase.html", [
