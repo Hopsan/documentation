@@ -54,7 +54,8 @@ $(document).ready(function(){initNavTree('userTransmissionLineModelingMethodPage
 <div class="title">Transmission Line Modeling (TLM) </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>The Transmission Line Element Method (TLM) origins from the method of characteristics and from PQ-modeling. The basic idea is to model the wave propagation by using impedances and wave variables with delayed information. This can be used for all systems that can be modeled with potentials, flows and restrictors, for example hydraulics, pneumatics, mechanics, electrics, magnetics and heat transfer. The TLM method has several benefits. Most importantly it gives a physically correct model of wave propagation in the system. It also enables the use of distributed solvers, where each component solves its own equations. This gives very good numerical stability, and opens up good opportunities for dividing a simulation into several parallel threads. The latter is used in Hopsan NG to make benefits of multi-core processors. Last but not least, the TLM method provides an intuitive and physically correct way of modeling a system.</p>
+<div class="textblock"><p>For a more in-depth tutorial see the following document <a href="https://hopsan.github.io/tutorials/mainTLMtutorial.pdf">https://hopsan.github.io/tutorials/mainTLMtutorial.pdf</a></p>
+<p>The Transmission Line Element Method (TLM) origins from the method of characteristics and from PQ-modeling. The basic idea is to model the wave propagation by using impedances and wave variables with delayed information. This can be used for all systems that can be modeled with potentials, flows and restrictors, for example hydraulics, pneumatics, mechanics, electrics, magnetics and heat transfer. The TLM method has several benefits. Most importantly it gives a physically correct model of wave propagation in the system. It also enables the use of distributed solvers, where each component solves its own equations. This gives very good numerical stability, and opens up good opportunities for dividing a simulation into several parallel threads. The latter is used in Hopsan NG to make benefits of multi-core processors. Last but not least, the TLM method provides an intuitive and physically correct way of modeling a system.</p>
 <p>Power-transmitting components are divided into two types. The first type is capacitive components, called "C-type", and does generally represent volumes or transmission line components. These calculate the <em>characteristic</em> <em>impedance</em> (Zc) by using the bulk modulus, and in turn use this to calculate the <em>wave</em> <em>variables</em> (c). They take pressure and flow as input variables, and write c and Zc. The speed of the wave propagation is simulated by using delay operators, which controls how long it will take for a wave variable to reach the opposite side of the component.</p>
 <p> 
   <br><b><h1>&nbsp; &nbsp; p = c + Z_c q</h1></b>
@@ -72,7 +73,7 @@ $(document).ready(function(){initNavTree('userTransmissionLineModelingMethodPage
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Sep 10 2020 21:05:14 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sun Feb 14 2021 10:43:03 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

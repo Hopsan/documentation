@@ -5,6 +5,7 @@ var classhopsan_1_1HVector =
     [ "HVector", "classhopsan_1_1HVector.html#a1fa8deb63595be15404b92f6be66ca33", null ],
     [ "~HVector", "classhopsan_1_1HVector.html#a47abe965a802743bd9b47018efeb94f0", null ],
     [ "append", "classhopsan_1_1HVector.html#a8eafa6f4c42b49f31d129b9b1bcae5eb", null ],
+    [ "assign_from", "classhopsan_1_1HVector.html#a584a8807e4be9a9cd71cf1e55487316a", null ],
     [ "capacity", "classhopsan_1_1HVector.html#a7223528283cd4e5872e0cc716bf9bd9d", null ],
     [ "clear", "classhopsan_1_1HVector.html#ac8bb3912a3ce86b15842e79d0b421204", null ],
     [ "data", "classhopsan_1_1HVector.html#a1699472936b80a88d3fc8096975d21b2", null ],

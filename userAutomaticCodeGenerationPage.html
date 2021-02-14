@@ -56,21 +56,18 @@ $(document).ready(function(){initNavTree('userAutomaticCodeGenerationPage.html',
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="component-generator"></a>
 Component Generator Dialog</h1>
-<p>Hopsan has a component skeleton generator functionality, from where new components can be written without deeper knowledge of the Hopsan simulation core interface. <b>Note!</b> This functionality has moved into the HoLC program (included with each Hopsan release). It was previously a part of Hopsan GUI.</p>
-<p>In this dialog it is possible to specify component name (used by simulation core, must not contain spaces), display name (shown in graphical interface) and component type (C,Q or S - see the <a class="el" href="userTransmissionLineModelingMethodPage.html">transmission line element method</a>). It is also possible to add ports, parameters, utility functions and static variables. Finally, the code for the component can be written in two ways, either directly from C++ code, or from algebraic equations using a subset of the Modelica language.</p>
+<p>Hopsan has a component skeleton generator functionality, from where new components can be written without deeper knowledge of the Hopsan simulation core interface. You will find it by choosing "Create external library" in the library widget. After a library has been created you can right click it and select to "Add new component". <b>Note</b> This functionality was previously present in the separate HoLC (Hopsan Library Creator) application, but this application should now be considered deprecated. Using the functional build into HopsanGUI is recommended.</p>
+<p>In this dialog it is possible to specify component type (used by simulation core, must be unique not contain spaces), display name (shown in graphical interface) and component type (C,Q or S - see the <a class="el" href="userTransmissionLineModelingMethodPage.html">transmission line element method</a>). It is also possible to add ports, parameters, utility functions and static variables. Finally, the code for the component can be written in two ways, either directly from C++ code, or from algebraic equations using a subset of the Modelica language.</p>
 <p>When writing C++ code, there are three functions available: Initialize, SimulateOneTimeStep and Finalize. Initialize runs before the first time step of the simulation, SimulateOneTimeStep runs every time step, and finalize runs after the simulation is finished. Available and sought parameters are displayed above the code boxes. When clicking compile, the component will be converted to Hopsan interface syntax and compiled to an external library.</p>
 <p>The other option is to use equations. This function is currently an experimental feature, and full functionality is not guaranteed. Equation-based modeling has several advantages over plain code modeling. It allows equations written in arbitrary ways, i.e. more than one variable on the left side. Equations can also be written in any order, as long as the number of equations equals the number of unknown variables. The language used is a subset of Modelica. It allows most basic functionality in the equation section. There is also an algorithm section, that will be executed prior to the equation solver each time step. This section does not support all Modelica algorithm functionality, and is basically intended only for defining explicit expressions that does not need to be part of the equation system. When compiling, a symbolic Jacobian matrix is generated and displayed in a popup window. This is then transformed to Hopsan syntax, together with a fixed-step equation system solver.</p>
-<p>Generated components are loaded automatically into a "Generated Component" library.</p>
-<h1><a class="anchor" id="generating-components-mathematica"></a>
-Generating Components From Mathematica</h1>
-<p>This feature is not implemented in the current version of Hopsan. In future releases it will be possible to automatically generate components from equations in Mathematica. </p>
+<p>To be able to use the created components, you must have the Hopsan version with a compiler included or have configured Hopsan to use the system compiler (must be compatible, same used to build Hopsan). </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Sep 10 2020 21:05:14 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sun Feb 14 2021 10:43:03 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

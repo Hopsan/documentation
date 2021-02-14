@@ -88,6 +88,7 @@ var hierarchy =
     [ "SecondOrderTransferFunction", "classhopsan_1_1SecondOrderTransferFunction.html", null ],
     [ "SecondOrderTransferFunctionVariable", "classhopsan_1_1SecondOrderTransferFunctionVariable.html", null ],
     [ "SimulationHandler", "classhopsan_1_1SimulationHandler.html", null ],
+    [ "TempDirectoryHandle", "classhopsan_1_1TempDirectoryHandle.html", null ],
     [ "TurbulentFlowFunction", "classhopsan_1_1TurbulentFlowFunction.html", null ],
     [ "ValveHysteresis", "classhopsan_1_1ValveHysteresis.html", null ],
     [ "VariameterDescription", "classhopsan_1_1VariameterDescription.html", null ],

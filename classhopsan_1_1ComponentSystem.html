@@ -187,9 +187,6 @@ const std::vector&lt; <a class="el" href="classhopsan_1_1Component.html">Compone
 <tr class="separator:adcc5f8e1497103c56c49c5de5976041f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24fdfe2a5d401e2f66eb950f5ffaf746"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classhopsan_1_1HString.html">HString</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1ComponentSystem.html#a24fdfe2a5d401e2f66eb950f5ffaf746">getSubComponentNames</a> () const</td></tr>
 <tr class="separator:a24fdfe2a5d401e2f66eb950f5ffaf746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bd118b11cfadef3fc5174812c4db832"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1ComponentSystem.html#a2bd118b11cfadef3fc5174812c4db832">getSubComponentsRecursively</a> (std::vector&lt; <a class="el" href="classhopsan_1_1Component.html">Component</a> * &gt; &amp;rComponents) const</td></tr>
-<tr class="memdesc:a2bd118b11cfadef3fc5174812c4db832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of pointers to all components the system and all sub systems.  <a href="classhopsan_1_1ComponentSystem.html#a2bd118b11cfadef3fc5174812c4db832">More...</a><br /></td></tr>
-<tr class="separator:a2bd118b11cfadef3fc5174812c4db832"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affd265c6131550e98c5f876c30cae617"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1ComponentSystem.html#affd265c6131550e98c5f876c30cae617">haveSubComponent</a> (const <a class="el" href="classhopsan_1_1HString.html">HString</a> &amp;rName) const</td></tr>
 <tr class="memdesc:affd265c6131550e98c5f876c30cae617"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a system has a subcomponent with given name.  <a href="classhopsan_1_1ComponentSystem.html#affd265c6131550e98c5f876c30cae617">More...</a><br /></td></tr>
 <tr class="separator:affd265c6131550e98c5f876c30cae617"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -364,6 +361,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a65af294fc80f88a2778dbb1312a885a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously added node. <br /></td></tr>
 <tr class="separator:a65af294fc80f88a2778dbb1312a885a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classhopsan_1_1Component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classhopsan_1_1Component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classhopsan_1_1Component.html">Component</a></td></tr>
+<tr class="memitem:a797b3f23ce95fc23a1f8af92ac689e36 inherit pub_methods_classhopsan_1_1Component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1Component.html#a797b3f23ce95fc23a1f8af92ac689e36">reconfigure</a> ()</td></tr>
+<tr class="memdesc:a797b3f23ce95fc23a1f8af92ac689e36 inherit pub_methods_classhopsan_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Re-configures a component, depending on e.g. parameter values or external files.  <a href="classhopsan_1_1Component.html#a797b3f23ce95fc23a1f8af92ac689e36">More...</a><br /></td></tr>
+<tr class="separator:a797b3f23ce95fc23a1f8af92ac689e36 inherit pub_methods_classhopsan_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae670fd189e364dc77e06fd16f31791fd inherit pub_methods_classhopsan_1_1Component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1Component.html#ae670fd189e364dc77e06fd16f31791fd">deconfigure</a> ()</td></tr>
 <tr class="memdesc:ae670fd189e364dc77e06fd16f31791fd inherit pub_methods_classhopsan_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconfigure a component, use this to cleanup and memory/resource allocations you have made in configure.  <a href="classhopsan_1_1Component.html#ae670fd189e364dc77e06fd16f31791fd">More...</a><br /></td></tr>
 <tr class="separator:ae670fd189e364dc77e06fd16f31791fd inherit pub_methods_classhopsan_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -435,6 +435,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addConstant</b> (cons
 <tr class="memitem:gaaf30f8bccbabf510960b94420b8a588a inherit pub_methods_classhopsan_1_1Component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ComponentSetupFunctions.html#gaaf30f8bccbabf510960b94420b8a588a">addConditionalConstant</a> (const <a class="el" href="classhopsan_1_1HString.html">HString</a> &amp;rName, const <a class="el" href="classhopsan_1_1HString.html">HString</a> &amp;rDescription, std::vector&lt; <a class="el" href="classhopsan_1_1HString.html">HString</a> &gt; &amp;rConditions, const int defaultValue, int &amp;rData)</td></tr>
 <tr class="memdesc:gaaf30f8bccbabf510960b94420b8a588a inherit pub_methods_classhopsan_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add (register) a conditional constant parameter to the component.  <a href="group__ComponentSetupFunctions.html#gaaf30f8bccbabf510960b94420b8a588a">More...</a><br /></td></tr>
 <tr class="separator:gaaf30f8bccbabf510960b94420b8a588a inherit pub_methods_classhopsan_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714b04111edf3026c0704c130ed53f83 inherit pub_methods_classhopsan_1_1Component"><td class="memItemLeft" align="right" valign="top"><a id="a714b04111edf3026c0704c130ed53f83"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setReconfigurationParameter</b> (const <a class="el" href="classhopsan_1_1HString.html">HString</a> &amp;rName)</td></tr>
+<tr class="separator:a714b04111edf3026c0704c130ed53f83 inherit pub_methods_classhopsan_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7446e5425f227c61b4dc65d817bf6d4e inherit pub_methods_classhopsan_1_1Component"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classhopsan_1_1VariameterDescription.html">VariameterDescription</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1Component.html#a7446e5425f227c61b4dc65d817bf6d4e">getVariameters</a> ()</td></tr>
 <tr class="separator:a7446e5425f227c61b4dc65d817bf6d4e inherit pub_methods_classhopsan_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6670a090f9d1a35624a33185ff8b407e inherit pub_methods_classhopsan_1_1Component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1Component.html#a6670a090f9d1a35624a33185ff8b407e">registerConditionalParameter</a> (const <a class="el" href="classhopsan_1_1HString.html">HString</a> &amp;rName, const <a class="el" href="classhopsan_1_1HString.html">HString</a> &amp;rDescription, std::vector&lt; <a class="el" href="classhopsan_1_1HString.html">HString</a> &gt; &amp;rConditions, int &amp;rValue)</td></tr>
@@ -1164,32 +1167,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 </div>
 </div>
-<a id="a2bd118b11cfadef3fc5174812c4db832"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bd118b11cfadef3fc5174812c4db832">&#9670;&nbsp;</a></span>getSubComponentsRecursively()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void getSubComponentsRecursively </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classhopsan_1_1Component.html">Component</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>rComponents</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns a list of pointers to all components the system and all sub systems. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">rComponents</td><td>Pointers to all components </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="affd265c6131550e98c5f876c30cae617"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#affd265c6131550e98c5f876c30cae617">&#9670;&nbsp;</a></span>haveSubComponent()</h2>
 
@@ -1820,7 +1797,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>hopsan</b></li><li class="navelem"><a class="el" href="classhopsan_1_1ComponentSystem.html">ComponentSystem</a></li>
-    <li class="footer">Generated on Thu Sep 10 2020 21:05:15 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sun Feb 14 2021 10:43:04 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

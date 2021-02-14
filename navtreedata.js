@@ -34,13 +34,15 @@ var NAVTREE =
         [ "Templatized C++ Command Line Parser Library", "page_hopsandependencies.html#sec_requiredhopsandependencies_tclap", null ],
         [ "RapidXML", "page_hopsandependencies.html#sec_requiredhopsandependencies_rapidxml", null ],
         [ "Indexing CSV Parser", "page_hopsandependencies.html#sec_requiredhopsandependencies_indexingcsvparser", null ],
-        [ "SUNDIALS", "page_hopsandependencies.html#sec_requiredhopsandependencies_sundials", null ]
+        [ "SUNDIALS", "page_hopsandependencies.html#sec_requiredhopsandependencies_sundials", null ],
+        [ "tronkko/dirent", "page_hopsandependencies.html#sec_msvchopsandependencies_dirent", null ]
       ] ],
       [ "Optional Hopsan Dependencies", "page_hopsandependencies.html#sec_optionalhopsandependencies", [
         [ "Discount", "page_hopsandependencies.html#sec_optionalhopsandependencies_libmarkdown", null ],
         [ "KaTeX", "page_hopsandependencies.html#sec_optionalhopsandependencies_katex", null ],
         [ "HDF5", "page_hopsandependencies.html#sec_optionalhopsandependencies_libhdf5", null ],
         [ "ZeroMQ", "page_hopsandependencies.html#sec_optionalhopsandependencies_zeromq", null ],
+        [ "cppzmq", "page_hopsandependencies.html#sec_optionalhopsandependencies_cppzeromq", null ],
         [ "MessagePack", "page_hopsandependencies.html#sec_optionalhopsandependencies_msgpack", null ]
       ] ],
       [ "Long License Texts", "page_hopsandependencies.html#sec_longlicensetexts", [
@@ -68,12 +70,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "",
-"classhopsan_1_1ComponentSystem.html#a485d255a102858af7212097f6cc1e8ac",
-"classhopsan_1_1HVector.html#a705cb04abf16e9addf4b1cb4fc53ce05",
-"classhopsan_1_1NodeDataDescription.html",
-"classhopsan_1_1Port.html#ab6786ca1bf5af66f7016fa7210fa6d86",
-"group__AuxiliarySimulationFunctions.html#ga3d061b95ba321e81f7fa61b5667bc1a2",
-"group__NodeSignal.html#ga69ae0566b4c25aaa8d4a34c9a3880023"
+"classhopsan_1_1ComponentSystem.html#a473d670798d533fed6422a2fcc85d3de",
+"classhopsan_1_1HVector.html#a5d56cb4cffc7089978d354304eb5a7a6",
+"classhopsan_1_1Node.html#adcf4c8005a3690338a34b55f41255d91",
+"classhopsan_1_1Port.html#a9fe5c9c67cf69f2fb36c2ab3bc21027b",
+"functions_t.html",
+"group__NodePetriNet.html#gga69ae0566b4c25aaa8d4a34c9a3880023ae2e1bc9aabbeab5b3e8f070a18e38f90",
+"userUnitTestModelsAndComponentsPage.html#userUnitTestModelsAndComponentsPage-components_howtocreateGUI"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

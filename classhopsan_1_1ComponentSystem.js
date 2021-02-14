@@ -49,7 +49,6 @@ var classhopsan_1_1ComponentSystem =
     [ "getSubComponentNames", "classhopsan_1_1ComponentSystem.html#a24fdfe2a5d401e2f66eb950f5ffaf746", null ],
     [ "getSubComponentOrThisIfSysPort", "classhopsan_1_1ComponentSystem.html#a300254b9c7cd709562bdb03fb8532f6f", null ],
     [ "getSubComponents", "classhopsan_1_1ComponentSystem.html#aaa20cb9ab79dae75a8ff79c6f81a9539", null ],
-    [ "getSubComponentsRecursively", "classhopsan_1_1ComponentSystem.html#a2bd118b11cfadef3fc5174812c4db832", null ],
     [ "getSubComponentSystem", "classhopsan_1_1ComponentSystem.html#adcc5f8e1497103c56c49c5de5976041f", null ],
     [ "getTotalMeasuredTime", "classhopsan_1_1ComponentSystem.html#afb0df989b7e974a36f95bc2bc556e2ad", null ],
     [ "getTypeCQS", "classhopsan_1_1ComponentSystem.html#a21b427ae51b3a238f0fe1b05242cd66b", null ],

@@ -54,23 +54,17 @@ $(document).ready(function(){initNavTree('page_setuplibrarydevelopmentenvironmen
 <div class="title">How to setup the component library development environment </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>To create your own Hopsan components (writing them as C++ code) you need to install the necessary compiler but you can use whatever code (text) editor that you want. An alternative is to use the full Hopsan development environment, including compiler and IDE. This guide describes the first simpler option.</p>
+<div class="textblock"><p>To create your own Hopsan components (writing them as C++ code) you need to install the necessary compiler but you can use whatever code (text) editor that you want. You can choose to use the built in code editor inside HopsanGUI, it offers basic code editing functionality. An alternative is to use a full-fledged external C++ IDE. This guide describes the first simpler option.</p>
 <p>You only need to install the compiler if:</p><ul>
 <li>You want to (re)compile component libraries that are already written.</li>
 <li>You want to write a small library with only a few simple components.</li>
 <li>You are not interested in debugging the code during simulation.</li>
-<li>You want to use some external automatic code generation tool or the HoLC (Hopsan Library Creator) program.</li>
 <li>You only want to use import/export features in Hopsan that require require a compiler (FMI requires this).</li>
 </ul>
-<p>If you want to write a lot of new/advanced code yourself and use the debugger, then it is recommended that you install the full development environment. If you choose this approach, then follow the instructions on the page_setupbuildenvironment page. <b>You only need to install the Qt Creator IDE and the Qt libraries.</b> The external build tools may only be necessary if you want to recompile Hopsan itself.</p>
+<p>If you want to write a lot of new/advanced code yourself and use the debugger, then it is recommended that you install a full development environment.</p>
 <h1><a class="anchor" id="sec_installcompileronly_windows"></a>
 Installing the compiler only, on Microsoft Windows</h1>
-<p><b>Installing the compiler for 64-bit Hopsan 0.7.*:</b></p><ol type="1">
-<li>You may need to install the 7-Zip program from <a href="http://www.7-zip.org">http://www.7-zip.org</a> to unpack the needed files.</li>
-<li>Download "x86_64-4.9.3-release-posix-seh-rt_v4-rev1.7z" from <a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/4.9.3/threads-posix/seh/x86_64-4.9.3-release-posix-seh-rt_v4-rev1.7z">http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/4.9.3/threads-posix/seh/x86_64-4.9.3-release-posix-seh-rt_v4-rev1.7z</a></li>
-<li>Unpack to a directory of your choice, <em>Example:</em> <code>C:\Qt\x86_64-4.9.3-release-posix-seh-rt_v4-rev1</code></li>
-<li>In the HopsanGUI options, choose the path to the compiler, <em>Example:</em> <code>C:\Qt\x86_64-4.9.3-release-posix-seh-rt_v4-rev1\mingw64\bin</code></li>
-</ol>
+<p>Download the version of Hopsan that comes with the compiler included to ensure that you get the correct version. The compiler will be located in the mingw or mingw64 sub directories of the Hopsan installation.</p>
 <h1><a class="anchor" id="sec_installcompileronly_linux"></a>
 Installing the compiler only, on GNU/Linux (*Ubuntu or Debian based systems)</h1>
 <p>Install the compiler (GCC) and other tools from you package repository using: <code>sudo apt-get install build-essential</code> </p>
@@ -80,7 +74,7 @@ Installing the compiler only, on GNU/Linux (*Ubuntu or Debian based systems)</h1
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Sep 10 2020 21:05:14 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sun Feb 14 2021 10:43:03 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

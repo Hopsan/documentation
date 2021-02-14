@@ -91,6 +91,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae369b3765489ee8bd0ea791c1843630f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1Component.html#ae369b3765489ee8bd0ea791c1843630f">configure</a> ()</td></tr>
 <tr class="memdesc:ae369b3765489ee8bd0ea791c1843630f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures a component by setting up ports, variables, constants and other resources.  <a href="classhopsan_1_1Component.html#ae369b3765489ee8bd0ea791c1843630f">More...</a><br /></td></tr>
 <tr class="separator:ae369b3765489ee8bd0ea791c1843630f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797b3f23ce95fc23a1f8af92ac689e36"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1Component.html#a797b3f23ce95fc23a1f8af92ac689e36">reconfigure</a> ()</td></tr>
+<tr class="memdesc:a797b3f23ce95fc23a1f8af92ac689e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Re-configures a component, depending on e.g. parameter values or external files.  <a href="classhopsan_1_1Component.html#a797b3f23ce95fc23a1f8af92ac689e36">More...</a><br /></td></tr>
+<tr class="separator:a797b3f23ce95fc23a1f8af92ac689e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae670fd189e364dc77e06fd16f31791fd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1Component.html#ae670fd189e364dc77e06fd16f31791fd">deconfigure</a> ()</td></tr>
 <tr class="memdesc:ae670fd189e364dc77e06fd16f31791fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconfigure a component, use this to cleanup and memory/resource allocations you have made in configure.  <a href="classhopsan_1_1Component.html#ae670fd189e364dc77e06fd16f31791fd">More...</a><br /></td></tr>
 <tr class="separator:ae670fd189e364dc77e06fd16f31791fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,6 +185,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addConstant</b> (cons
 <tr class="memitem:gaaf30f8bccbabf510960b94420b8a588a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ComponentSetupFunctions.html#gaaf30f8bccbabf510960b94420b8a588a">addConditionalConstant</a> (const <a class="el" href="classhopsan_1_1HString.html">HString</a> &amp;rName, const <a class="el" href="classhopsan_1_1HString.html">HString</a> &amp;rDescription, std::vector&lt; <a class="el" href="classhopsan_1_1HString.html">HString</a> &gt; &amp;rConditions, const int defaultValue, int &amp;rData)</td></tr>
 <tr class="memdesc:gaaf30f8bccbabf510960b94420b8a588a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add (register) a conditional constant parameter to the component.  <a href="group__ComponentSetupFunctions.html#gaaf30f8bccbabf510960b94420b8a588a">More...</a><br /></td></tr>
 <tr class="separator:gaaf30f8bccbabf510960b94420b8a588a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714b04111edf3026c0704c130ed53f83"><td class="memItemLeft" align="right" valign="top"><a id="a714b04111edf3026c0704c130ed53f83"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setReconfigurationParameter</b> (const <a class="el" href="classhopsan_1_1HString.html">HString</a> &amp;rName)</td></tr>
+<tr class="separator:a714b04111edf3026c0704c130ed53f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7446e5425f227c61b4dc65d817bf6d4e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classhopsan_1_1VariameterDescription.html">VariameterDescription</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1Component.html#a7446e5425f227c61b4dc65d817bf6d4e">getVariameters</a> ()</td></tr>
 <tr class="separator:a7446e5425f227c61b4dc65d817bf6d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85f9961ae6855b7ae88cdaf694abd17b"><td class="memItemLeft" align="right" valign="top">virtual std::list&lt; <a class="el" href="classhopsan_1_1HString.html">HString</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhopsan_1_1Component.html#a85f9961ae6855b7ae88cdaf694abd17b">getModelAssets</a> () const</td></tr>
@@ -1237,6 +1243,34 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>NumericalIntegration
 
 </div>
 </div>
+<a id="a797b3f23ce95fc23a1f8af92ac689e36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a797b3f23ce95fc23a1f8af92ac689e36">&#9670;&nbsp;</a></span>reconfigure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void reconfigure </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Re-configures a component, depending on e.g. parameter values or external files. </p>
+<p>This function can be optionally overloaded if it is needed This function must explicitly be called by host environment whenever necessary, but always after calling <a class="el" href="classhopsan_1_1Component.html#ae369b3765489ee8bd0ea791c1843630f" title="Configures a component by setting up ports, variables, constants and other resources.">configure()</a>. </p>
+
+</div>
+</div>
 <a id="a6670a090f9d1a35624a33185ff8b407e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6670a090f9d1a35624a33185ff8b407e">&#9670;&nbsp;</a></span>registerConditionalParameter()</h2>
 
@@ -1475,7 +1509,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>NumericalIntegration
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>hopsan</b></li><li class="navelem"><a class="el" href="classhopsan_1_1Component.html">Component</a></li>
-    <li class="footer">Generated on Thu Sep 10 2020 21:05:14 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sun Feb 14 2021 10:43:04 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

@@ -15,7 +15,9 @@ var classhopsan_1_1ParameterEvaluator =
     [ "resolveSignPrefix", "classhopsan_1_1ParameterEvaluator.html#af28b0e3e731b4ca62475ed356b5a8d99", null ],
     [ "setParameter", "classhopsan_1_1ParameterEvaluator.html#a164991512df156261dfc822acf23410f", null ],
     [ "setParameterValue", "classhopsan_1_1ParameterEvaluator.html#a30813c32d1e37a5f6c647947293a1d88", null ],
+    [ "setTriggersReconfiguration", "classhopsan_1_1ParameterEvaluator.html#a4e6a78f20be6f916374d6457df52a28f", null ],
     [ "splitSignPrefix", "classhopsan_1_1ParameterEvaluator.html#a955e3bc65d2452649af97c2223b7c1c5", null ],
+    [ "triggersReconfiguration", "classhopsan_1_1ParameterEvaluator.html#a9dbcc38d1f867f0ce0f7caecfa2dd636", null ],
     [ "ParameterEvaluatorHandler", "classhopsan_1_1ParameterEvaluator.html#aee8c4825774446444321b86cd0f053a7", null ],
     [ "mConditions", "classhopsan_1_1ParameterEvaluator.html#aa08d0c81e8b176a1ad14e83ce68a443b", null ],
     [ "mDepthCounter", "classhopsan_1_1ParameterEvaluator.html#ac8d3ec278991f46f60534000ed6c51a9", null ],
@@ -25,6 +27,7 @@ var classhopsan_1_1ParameterEvaluator =
     [ "mpData", "classhopsan_1_1ParameterEvaluator.html#a411028874de212e61858e7404faafd3a", null ],
     [ "mpParameterEvaluatorHandler", "classhopsan_1_1ParameterEvaluator.html#a3b518aee324d81a6a03d7cfcb3915fef", null ],
     [ "mQuantity", "classhopsan_1_1ParameterEvaluator.html#a01b7fa36c14392decfdfa59b7e7b34ef", null ],
+    [ "mTriggersReconfiguration", "classhopsan_1_1ParameterEvaluator.html#a45c5a28aac4d81a62e51c34e8624f424", null ],
     [ "mType", "classhopsan_1_1ParameterEvaluator.html#acbd08545d786061b8a192084e3f9b175", null ],
     [ "mUnit", "classhopsan_1_1ParameterEvaluator.html#a3bb93d5fb475c8ee58e39e9180a63ec6", null ]
 ];

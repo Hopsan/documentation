@@ -13,10 +13,9 @@ var page_componentdevelopment =
     ] ],
     [ "Creating your own custom components manually", "devWritingCppComponentsPage.html", "devWritingCppComponentsPage" ],
     [ "Automatically generating Component Code", "userAutomaticCodeGenerationPage.html", [
-      [ "Component Generator Dialog", "userAutomaticCodeGenerationPage.html#component-generator", null ],
-      [ "Generating Components From Mathematica", "userAutomaticCodeGenerationPage.html#generating-components-mathematica", null ]
+      [ "Component Generator Dialog", "userAutomaticCodeGenerationPage.html#component-generator", null ]
     ] ],
-    [ "Model and Component Unit-Testing", "userUnitTestModelsAndComponentsPage.html", [
+    [ "Model and Component Regression Testing", "userUnitTestModelsAndComponentsPage.html", [
       [ "How to Create a Validation Model in Hopsan CLI", "userUnitTestModelsAndComponentsPage.html#userUnitTestModelsAndComponentsPage-components_howtocreateCLI", null ],
       [ "How to Create a Validation Model in Hopsan GUI", "userUnitTestModelsAndComponentsPage.html#userUnitTestModelsAndComponentsPage-components_howtocreateGUI", null ],
       [ "How to Test a Validation Model in Hopsan CLI", "userUnitTestModelsAndComponentsPage.html#userUnitTestModelsAndComponentsPage-components_howtotestCLI", null ],

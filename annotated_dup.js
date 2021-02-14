@@ -72,6 +72,7 @@ var annotated_dup =
       [ "SecondOrderTransferFunctionVariable", "classhopsan_1_1SecondOrderTransferFunctionVariable.html", "classhopsan_1_1SecondOrderTransferFunctionVariable" ],
       [ "SimulationHandler", "classhopsan_1_1SimulationHandler.html", "classhopsan_1_1SimulationHandler" ],
       [ "SystemPort", "classhopsan_1_1SystemPort.html", "classhopsan_1_1SystemPort" ],
+      [ "TempDirectoryHandle", "classhopsan_1_1TempDirectoryHandle.html", "classhopsan_1_1TempDirectoryHandle" ],
       [ "TurbulentFlowFunction", "classhopsan_1_1TurbulentFlowFunction.html", "classhopsan_1_1TurbulentFlowFunction" ],
       [ "ValveHysteresis", "classhopsan_1_1ValveHysteresis.html", "classhopsan_1_1ValveHysteresis" ],
       [ "VariameterDescription", "classhopsan_1_1VariameterDescription.html", "classhopsan_1_1VariameterDescription" ],

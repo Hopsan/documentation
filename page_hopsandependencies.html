@@ -54,8 +54,7 @@ $(document).ready(function(){initNavTree('page_hopsandependencies.html',''); ini
 <div class="title">Hopsan Dependencies and Licenses </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Hopsan depend on various third-party projects for some functionality.<br  />
-We would like to acknowledge these projects.<br  />
+<div class="textblock"><p>Hopsan depends on various third-party projects for additional functionality. We would like to acknowledge these projects.<br  />
 Some rather lengthy license texts are given at the end of this page.</p>
 <h1><a class="anchor" id="sec_requiredhopsandependencies"></a>
 Required Hopsan Dependencies</h1>
@@ -64,9 +63,10 @@ Qt - Cross-platform application and UI framework</h2>
 <p>This framework is used as the basis for the HopsanGUI application and some other components of Hopsan <br  />
 <a href="http://www.qt.io/">http://www.qt.io/</a></p>
 <p><b>License:</b> <br  />
-</p><pre class="fragment">LGPL v2.1 and LGPL v3.0
+</p><pre class="fragment">LGPL v2.1, LGPL v3.0 and GPL v3.0
 http://www.gnu.org/licenses/lgpl-2.1
 http://www.gnu.org/licenses/lgpl-3.0
+http://www.gnu.org/licenses/gpl-3.0
 </pre><h2><a class="anchor" id="sec_requiredhopsandependencies_qwt"></a>
 Qwt - Qt Widgets for Technical Applications</h2>
 <p>This library is used for plotting in the HopsanGUI. <br  />
@@ -104,7 +104,7 @@ exceptions:
            the Qwt project (http://qwt.sf.net).
 </pre><h2><a class="anchor" id="sec_requiredhopsandependencies_fmilibrary"></a>
 FMI Library</h2>
-<p>This library is used for FMI/FMU support <br  />
+<p>This library is used for FMI/FMU support. <br  />
 <a href="http://www.jmodelica.org/FMILibrary">http://www.jmodelica.org/FMILibrary</a></p>
 <p><b>License:</b> <br  />
 </p><pre class="fragment">Copyright (C) 2012 Modelon AB
@@ -132,9 +132,8 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </pre><h2><a class="anchor" id="sec_requiredhopsandependencies_tclap"></a>
 Templatized C++ Command Line Parser Library</h2>
-<p>Used for command-line argument parsing in the HopsanCLI <br  />
+<p>Used for command-line argument parsing in the Hopsan command line applications. <br  />
 <a href="http://tclap.sourceforge.net/">http://tclap.sourceforge.net/</a></p>
-<p>Note! This library is a header only library and no compilation is required.</p>
 <p><b>License:</b> <br  />
 </p><pre class="fragment">Copyright (c) 2003 Michael E. Smoot
 
@@ -244,6 +243,32 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</pre><h2><a class="anchor" id="sec_msvchopsandependencies_dirent"></a>
+tronkko/dirent</h2>
+<p>Microsoft Visual C++ compatible Dirent interface. Only used when building with the MSVC compiler. <br  />
+<a href="https://github.com/tronkko/dirent">https://github.com/tronkko/dirent</a></p>
+<p><b>License:</b> <br  />
+</p><pre class="fragment">The MIT License (MIT)
+
+Copyright (c) 1998-2019 Toni Ronkko
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 </pre><h1><a class="anchor" id="sec_optionalhopsandependencies"></a>
 Optional Hopsan Dependencies</h1>
 <h2><a class="anchor" id="sec_optionalhopsandependencies_libmarkdown"></a>
@@ -410,14 +435,47 @@ ZeroMQ</h2>
 <p>Used for remote communication in Hopsan. <br  />
 <a href="http://zeromq.org/">http://zeromq.org/</a></p>
 <p><b>License:</b> <br  />
-</p><pre class="fragment">GNU Lesser General Public License V3
-http://www.gnu.org/licenses/lgpl-3.0
+</p><pre class="fragment">libzmq is free software; you can redistribute it and/or modify it under
+the terms of the GNU Lesser General Public License (LGPL) as published
+by the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
 
-libzmq is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License (LGPL) as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+As a special exception, the Contributors give you permission to link
+this library with independent modules to produce an executable,
+regardless of the license terms of these independent modules, and to
+copy and distribute the resulting executable under terms of your choice,
+provided that you also meet, for each linked independent module, the
+terms and conditions of the license of that module. An independent
+module is a module which is not derived from or based on this library.
+If you modify this library, you must extend this exception to your
+version of the library.
 
-As a special exception, the Contributors give you permission to link this library with independent modules to produce an executable, regardless of the license terms of these independent modules, and to copy and distribute the resulting executable under terms of your choice, provided that you also meet, for each linked independent module, the terms and conditions of the license of that module. An independent module is a module which is not derived from or based on this library. If you modify this library, you must extend this exception to your version of the library.
+libzmq is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public
+License for more details.
+</pre><h2><a class="anchor" id="sec_optionalhopsandependencies_cppzeromq"></a>
+cppzmq</h2>
+<p>C++ binding for ZeroMQ. <br  />
+<a href="https://github.com/zeromq/cppzmq">https://github.com/zeromq/cppzmq</a></p>
+<p><b>License:</b> <br  />
+</p><pre class="fragment">    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to
+    deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+    sell copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
 
-libzmq is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+    IN THE SOFTWARE.
 </pre><h2><a class="anchor" id="sec_optionalhopsandependencies_msgpack"></a>
 MessagePack</h2>
 <p>Binary serialization format for use with remote simulation and optimization framework. <br  />
@@ -1801,7 +1859,7 @@ Library.
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Sep 10 2020 21:05:14 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sun Feb 14 2021 10:43:03 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>
