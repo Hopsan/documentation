@@ -19,6 +19,7 @@ var classhopsan_1_1Component =
     [ "addConstant", "group__ComponentSetupFunctions.html#ga7c80453ae5e696e6aa83bd6764840bcf", null ],
     [ "addConstant", "group__ComponentSetupFunctions.html#gac2340e89b89f9f1bbf11b8b3d0552f17", null ],
     [ "addConstant", "group__ComponentSetupFunctions.html#ga140fb00be05e483a774e6eeba7d990ea", null ],
+    [ "addConstant", "classhopsan_1_1Component.html#ae54593930eef0b8162b1b386a765dacf", null ],
     [ "addConstant", "classhopsan_1_1Component.html#ab74b0c70d8e3f1d882c2e9171d6f46e1", null ],
     [ "addDebugMessage", "group__ComponentMessageFunctions.html#ga95ea57f96a948b40cc26e431cf3516df", null ],
     [ "addErrorMessage", "group__ComponentMessageFunctions.html#gaa86eaba46623595fe6172dd7298de796", null ],

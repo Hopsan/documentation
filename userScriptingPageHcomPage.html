@@ -495,6 +495,10 @@ adco</h2>
  Usage: adco [typename] [name] -w [other] [west-offset] [rot-angel]<br  />
  Usage: adco [typename] [name] -n [other] [north-offset] [rot-angel]<br  />
  Usage: adco [typename] [name] -s [other] [south-offset] [rot-angel]</p>
+<h2><a class="anchor" id="rpco"></a>
+rpco</h2>
+<p>Replaces a component with a different type<br  />
+ Usage: rpco [name] [typename]</p>
 <h2><a class="anchor" id="coco"></a>
 coco</h2>
 <p>Connect components in current model<br  />
@@ -609,43 +613,90 @@ Local Functions</h1>
 abs()</h2>
 <p>The absolute value of each vector element<br  />
  Usage: abs(vector)</p>
+<h2><a class="anchor" id="ans"></a>
+ans()</h2>
+<p>Returns the answer from the previous computation<br  />
+ Usage: ans()</p>
 <h2><a class="anchor" id="aver"></a>
 aver()</h2>
 <p>Calculate average value of vector<br  />
  Usage: aver(vector)</p>
+<h2><a class="anchor" id="bdf1"></a>
+bdf1()</h2>
+<p>Transforms derivatives in a symbolic expression using the first order backward differentiation formula (implicit Euler)<br  />
+ Usage: e = bdf1(f)</p>
+<h2><a class="anchor" id="bdf2"></a>
+bdf2()</h2>
+<p>Transforms derivatives in a symbolic expression using the second order backward differentiation formula<br  />
+ Usage: e = bdf2(f)</p>
 <h2><a class="anchor" id="ceil"></a>
 ceil()</h2>
 <p>Rounds the value of each vector element to the smallest integer larger than the value<br  />
  Usage: ceil(vector)</p>
+<h2><a class="anchor" id="cut"></a>
+cut()</h2>
+<p>Removes all samples x[i] for which y[i]&lt;0.5<br  />
+ Usage: cut(x, y)</p>
 <h2><a class="anchor" id="ddt"></a>
 ddt()</h2>
 <p>Differentiates vector with respect to time (or to custom vector)<br  />
  Usage: ddt(vector)<br  />
  Usage: ddt(vector, timevector)</p>
+<h2><a class="anchor" id="der"></a>
+der()</h2>
+<p>Differentiates a symbolic expression with respect to another one<br  />
+ Usage: e = der(f1,f2)</p>
 <h2><a class="anchor" id="eq"></a>
 eq()</h2>
 <p>Index-wise fuzzy equal check between vectors and/or scalars (equivalent to "==" operator)<br  />
  Usage: eq(varName, threshold, eps)<br  />
  Usage: eq(var1, var2, eps)</p>
+<h2><a class="anchor" id="esd"></a>
+esd()</h2>
+<p>Generates energy spectral density from vector<br  />
+ Usage: esd(vector, [timevector], <a href="[rectangular]/flattop/hann">windowing</a>, [mintime], [maxtime])<br  />
+</p>
+<h2><a class="anchor" id="euler"></a>
+euler()</h2>
+<p>Transforms derivatives in a symbolic expression using the forward Euler method<br  />
+ Usage: e = euler(f)</p>
+<h2><a class="anchor" id="eval"></a>
+eval</h2>
+<p>Evaluates a symbolic expression using local variables<br  />
+ Usage: y = expr(f)</p>
 <h2><a class="anchor" id="exists"></a>
 exists()</h2>
 <p>Returns whether or not specified component exists in model<br  />
  Usage: exists(name)</p>
+<h2><a class="anchor" id="expand"></a>
+expand()</h2>
+<p>Expands all parentheses in a symbolic expression<br  />
+ Usage: e = expand(f)</p>
+<h2><a class="anchor" id="expandpowers"></a>
+expandPowers()</h2>
+<p>Expands all powers in a symbolic expression to multiplications<br  />
+ Usage: e = expandPowers(f)</p>
+<h2><a class="anchor" id="expr"></a>
+expr()</h2>
+<p>Defines a new symbolic expression<br  />
+ Usage: e = expr(...)</p>
+<h2><a class="anchor" id="factor"></a>
+factor()</h2>
+<p>Factors a symbolic expression with respect to another one<br  />
+ Usage: e = factor(f1,f2)</p>
 <h2><a class="anchor" id="fc"></a>
 fc()</h2>
 <p>Fuzzy compare, returns 1 if the values of the arguments are almost the same<br  />
  Usage: fc(expr, expr, tolerance)</p>
 <h2><a class="anchor" id="fd"></a>
 fd()</h2>
-<p>Converts variable to frequency domain.Usage: y = fd(x)<br  />
-</p>
+<p>Converts variable to frequency domain.<br  />
+ Usage: y = fd(x)</p>
 <h2><a class="anchor" id="fft"></a>
 fft()</h2>
-<p>Generates frequency spectrum plot from vector<br  />
- Usage: fft(vector)<br  />
- Usage: fft(vector, power[true/false])<br  />
- Usage: fft(vector, timevector)<br  />
- Usage: fft(vector, timevector, power[true/false])</p>
+<p>Generates frequency spectrum plot from vector (deprecated)<br  />
+ Usage: fft(vector, <a href="[power]/energy/rms">type</a>, <a href="[rectangular]/flattop/hann">windowing</a>, [min], [max])<br  />
+ Usage: fft(vector, [timevector], <a href="[power]/energy/rms">type</a>, <a href="[rectangular]/flattop/hann">windowing</a>, [min], [max])</p>
 <h2><a class="anchor" id="floor"></a>
 floor()</h2>
 <p>Rounds the value of each vector element to the largest integer smaller than the value<br  />
@@ -672,6 +723,18 @@ int()</h2>
 <p>Integrates vector with respect to time (or to custom vector)<br  />
  Usage: int(vector)<br  />
  Usage: int(vector, timevector)</p>
+<h2><a class="anchor" id="latex"></a>
+latex()</h2>
+<p>Prints a symbolic expression with LaTeX syntax<br  />
+ Usage: latex(e)</p>
+<h2><a class="anchor" id="left"></a>
+left()</h2>
+<p>Returns the left-hand side of a SymHop equation<br  />
+ Usage: e = left(f)</p>
+<h2><a class="anchor" id="linearize"></a>
+linearize()</h2>
+<p>Linearizes a SymHop equation by multiplying with all divisors<br  />
+ Usage: e = linearize(f)</p>
 <h2><a class="anchor" id="linspace"></a>
 linspace()</h2>
 <p>Linearly spaced vector<br  />
@@ -734,26 +797,66 @@ optvar()</h2>
 peek</h2>
 <p>Returns vector value at specified index<br  />
  Usage: peek(vector, idx)</p>
+<h2><a class="anchor" id="psd"></a>
+psd()</h2>
+<p>Generates power spectral density from vector<br  />
+ Usage: psd(vector, [timevector], <a href="[rectangular]/flattop/hann">windowing</a>, [mintime], [maxtime])<br  />
+</p>
 <h2><a class="anchor" id="rand"></a>
 rand()</h2>
 <p>Generates a random value between 0 and 1<br  />
  Usage: rand()</p>
+<h2><a class="anchor" id="removedivisors"></a>
+removeDivisors()</h2>
+<p>Removes all divisors in a symbolic expression<br  />
+ Usage: e = removeDivisors(f)</p>
+<h2><a class="anchor" id="right"></a>
+right()</h2>
+<p>Returns the right-hand side of a SymHop equation<br  />
+ Usage: e = right(f)</p>
+<h2><a class="anchor" id="rms"></a>
+rms()</h2>
+<p>Computes the root mean square of given vector<br  />
+ Usage: rms(vector)</p>
+<h2><a class="anchor" id="rmsd"></a>
+rmsd()</h2>
+<p>Generates root mean square spectral density from vector<br  />
+ Usage: rmsd(vector, [timevector], <a href="[rectangular]/flattop/hann">windowing</a>, [mintime], [maxtime])<br  />
+</p>
 <h2><a class="anchor" id="round"></a>
 round()</h2>
 <p>Rounds the value of each vector element to closest integer value<br  />
  Usage: round(vector)</p>
+<h2><a class="anchor" id="simplify"></a>
+simplify()</h2>
+<p>Simplifies a symbolic expression<br  />
+ Usage: e = simplify(f)</p>
 <h2><a class="anchor" id="size"></a>
 size()</h2>
 <p>Calculate the size of a vector<br  />
  Usage: size(vector)</p>
+<h2><a class="anchor" id="ssi"></a>
+ssi()</h2>
+<p>Identifies steady-state for specified variable<br  />
+ Usage: ssi(vector, method, arguments)<br  />
+ Method 0 (rectangular window):<br  />
+ ssi(vector, 0, tolerance, windowlength)<br  />
+ Method 1 (ratio of differently estimated variances):<br  />
+ ssi(vector, 1, tolerance, windowlength, noiseamplitude<br  />
+ Method 2 (ratio of differently estimated variances using weighted moving average):<br  />
+ ssi(vector, 2, tolerance, lambda1, lambda2, lambda3, noiseamplitude)</p>
 <h2><a class="anchor" id="td"></a>
 td()</h2>
-<p>Converts variable to time domain.Usage: y = td(x)<br  />
-</p>
+<p>Converts variable to time domain.<br  />
+ Usage: y = td(x)</p>
 <h2><a class="anchor" id="time"></a>
 time()</h2>
 <p>Returns last simulation time<br  />
  Usage: time()</p>
+<h2><a class="anchor" id="trapezoid"></a>
+trapezoid()</h2>
+<p>Transforms derivatives in a symbolic expression using the trapezoid method<br  />
+ Usage: e = trapezoid(f)</p>
 <h2><a class="anchor" id="vector"></a>
 vector()</h2>
 <p>Create a vector with specified values<br  />
@@ -772,7 +875,7 @@ zeros()</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Feb 14 2021 10:43:03 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sat Jun 10 2023 18:25:55 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

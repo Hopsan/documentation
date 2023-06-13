@@ -8,6 +8,7 @@ var classhopsan_1_1HVector =
     [ "assign_from", "classhopsan_1_1HVector.html#a584a8807e4be9a9cd71cf1e55487316a", null ],
     [ "capacity", "classhopsan_1_1HVector.html#a7223528283cd4e5872e0cc716bf9bd9d", null ],
     [ "clear", "classhopsan_1_1HVector.html#ac8bb3912a3ce86b15842e79d0b421204", null ],
+    [ "contains", "classhopsan_1_1HVector.html#adb6c0b1fc5058e1d495e0ed5e96bf9f9", null ],
     [ "data", "classhopsan_1_1HVector.html#a1699472936b80a88d3fc8096975d21b2", null ],
     [ "empty", "classhopsan_1_1HVector.html#a644718bb2fb240de962dc3c9a1fdf0dc", null ],
     [ "first", "classhopsan_1_1HVector.html#a7623ebf1de749ead723a8a20ffb9475a", null ],

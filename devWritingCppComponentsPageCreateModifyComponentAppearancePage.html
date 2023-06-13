@@ -80,6 +80,10 @@ Appearance Description Files (.xml)</h1>
       &lt;port name="P2" x="0.0" y="0.5" a="180" visible="true"/&gt;
       &lt;port name="Kc" x="0.5" y="0.0" a="270" visible="false"/&gt;
     &lt;/ports&gt;
+      &lt;parametersets&gt;
+        &lt;parameterset name="First parameter set" path="firstparameterset.ssv"/&gt;
+        &lt;parameterset name="Second parameter set" path="secondparameterset.ssv"/&gt;
+    &lt;/parametersets&gt;
   &lt;/modelobject&gt;
 &lt;/hopsanobjectappearance&gt;
 </pre><p>The first line contains basic information about the XML code, and should always look the same. A description of the remaining tags follows:</p>
@@ -115,7 +119,12 @@ Appearance Description Files (.xml)</h1>
 <li><b>x</b> X-position fraction of component icon width (0 = left, 1 = right)</li>
 <li><b>y</b> Y-position fraction of component icon height (0 = top, 1 = bottom)</li>
 <li><b>a</b> Angle of port, 0 = right, 90 = down, 180 = left, 270 = up, ports shall normally point outwards from the component</li>
-<li><b>visible</b> If the port is visible by default, <em>true</em> or <em>false</em>. (If omitted defaults to true) </li>
+<li><b>visible</b> If the port is visible by default, <em>true</em> or <em>false</em>. (If omitted defaults to true)</li>
+</ul>
+</li>
+<li><b>parametersets</b> Defines available pre-defined parameter sets for the component in <a href="https://ssp-standard.org/">System Structure Parameter Values</a> format<ul>
+<li><b>name</b> Name of each parameter set</li>
+<li><b>path</b> Relative path from the .xml file to the parameter set (.ssv) </li>
 </ul>
 </li>
 </ul>
@@ -125,7 +134,7 @@ Appearance Description Files (.xml)</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Feb 14 2021 10:43:03 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Sat Jun 10 2023 18:25:55 for Hopsan by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

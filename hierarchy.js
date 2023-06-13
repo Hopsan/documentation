@@ -29,6 +29,7 @@ var hierarchy =
     [ "HopsanEssentials", "classhopsan_1_1HopsanEssentials.html", null ],
     [ "HopsanExternalLibInfo", "structhopsan_1_1HopsanExternalLibInfo.html", null ],
     [ "HString", "classhopsan_1_1HString.html", [
+      [ "HFilePath", "classhopsan_1_1HFilePath.html", null ],
       [ "HTextBlock", "classhopsan_1_1HTextBlock.html", null ]
     ] ],
     [ "HVector< T >", "classhopsan_1_1HVector.html", null ],

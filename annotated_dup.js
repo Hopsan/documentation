@@ -21,6 +21,7 @@ var annotated_dup =
       [ "FirstOrderLowPassFilter", "classhopsan_1_1FirstOrderLowPassFilter.html", "classhopsan_1_1FirstOrderLowPassFilter" ],
       [ "FirstOrderTransferFunction", "classhopsan_1_1FirstOrderTransferFunction.html", "classhopsan_1_1FirstOrderTransferFunction" ],
       [ "FirstOrderTransferFunctionVariable", "classhopsan_1_1FirstOrderTransferFunctionVariable.html", "classhopsan_1_1FirstOrderTransferFunctionVariable" ],
+      [ "HFilePath", "classhopsan_1_1HFilePath.html", null ],
       [ "HopsanCoreMessage", "classhopsan_1_1HopsanCoreMessage.html", "classhopsan_1_1HopsanCoreMessage" ],
       [ "HopsanCoreMessageHandler", "classhopsan_1_1HopsanCoreMessageHandler.html", "classhopsan_1_1HopsanCoreMessageHandler" ],
       [ "HopsanEssentials", "classhopsan_1_1HopsanEssentials.html", "classhopsan_1_1HopsanEssentials" ],

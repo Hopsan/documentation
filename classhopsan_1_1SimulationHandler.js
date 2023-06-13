@@ -11,5 +11,7 @@ var classhopsan_1_1SimulationHandler =
     [ "initializeSystem", "classhopsan_1_1SimulationHandler.html#a6367149bf6290415e168160b6f0b238c", null ],
     [ "initializeSystem", "classhopsan_1_1SimulationHandler.html#a78704a76e64b8539ea015a675691ab96", null ],
     [ "simulateSystem", "classhopsan_1_1SimulationHandler.html#a0a69042b6fad0b05e344b4d1e278cc5f", null ],
-    [ "simulateSystem", "classhopsan_1_1SimulationHandler.html#ae8b5942309e793454dcc1867ec86b079", null ]
+    [ "simulateSystem", "classhopsan_1_1SimulationHandler.html#ae8b5942309e793454dcc1867ec86b079", null ],
+    [ "startRealtimeSimulation", "classhopsan_1_1SimulationHandler.html#a8846a8335a98e99b1585cdd03d2dc438", null ],
+    [ "stopRealtimeSimulation", "classhopsan_1_1SimulationHandler.html#a8566fba56d8f1fe9672c7055ef5dd0a3", null ]
 ];
