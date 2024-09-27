@@ -21,7 +21,14 @@
 \_form#20=68x14:$num[1]=a_1$
 \_form#21=60x14:$den[0]=b_0$
 \_form#22=59x14:$den[1]=b_1$
-\_form#23=243x46:\[ y = \int_{0}^{t} \left\{ \begin{array}{ll} 0 & \mbox{if } \int u \, dt + y_0 < y_{min} \\ 0 & \mbox{if } \int u \, dt + y_0 > y_{max} \\ u & \mbox{otherwise} \end{array} \right. \, dt + y_0\]
+\_form#23=243x46:\[ y = \int_{0}^{t}
+   \left\{
+     \begin{array}{ll}
+       0 & \mbox{if } \int u \, dt + y_0 < y_{min} \\
+       0 & \mbox{if } \int u \, dt + y_0 > y_{max} \\
+       u & \mbox{otherwise}
+     \end{array}
+   \right. \, dt + y_0\]
 \_form#24=113x30:\[G=\frac{a_2 s^2 + a_1 s + a_0}{b_2 s^2 + b_1 s + b_0}\]
 \_form#25=68x14:$num[2]=a_2$
 \_form#26=60x14:$den[2]=b_2$

@@ -1,7 +1,5 @@
 var classhopsan_1_1DelayTemplate =
 [
-    [ "DelayTemplate", "classhopsan_1_1DelayTemplate.html#abcf1adb0115c4f9788e872a3a3d3b5cd", null ],
-    [ "~DelayTemplate", "classhopsan_1_1DelayTemplate.html#ad3ce80b3e1aecc6bb55565e1965e83b8", null ],
     [ "clear", "classhopsan_1_1DelayTemplate.html#ac8bb3912a3ce86b15842e79d0b421204", null ],
     [ "getIdx", "classhopsan_1_1DelayTemplate.html#affb2d44dc85d6261aa5a2bd9a6d27ee2", null ],
     [ "getNewest", "classhopsan_1_1DelayTemplate.html#a6be79212507d4f90328f282a5bce75dd", null ],

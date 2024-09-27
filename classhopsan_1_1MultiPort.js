@@ -1,22 +1,18 @@
 var classhopsan_1_1MultiPort =
 [
-    [ "MultiPort", "classhopsan_1_1MultiPort.html#ae0d57b7c0a48cec1d1d538e2c07f55f9", null ],
-    [ "~MultiPort", "classhopsan_1_1MultiPort.html#a736b2f403c79c130ad483dcc839aadda", null ],
     [ "addSubPort", "classhopsan_1_1MultiPort.html#a1223f31ca2678e5f6a7a9993dbd58611", null ],
     [ "getConnectedPorts", "classhopsan_1_1MultiPort.html#abd8d592829c07da7ea7f66c4e8db12d7", null ],
     [ "getDataVectorPtr", "classhopsan_1_1MultiPort.html#a02afa383e10977d076bf2a2921d8df68", null ],
     [ "getLogDataVectorPtr", "classhopsan_1_1MultiPort.html#af905498d0a1e5010c44a43cbb59d5c79", null ],
-    [ "getLogDataVectorPtr", "classhopsan_1_1MultiPort.html#a20baad2703606ca8b5880926918c63b0", null ],
     [ "getLogTimeVectorPtr", "classhopsan_1_1MultiPort.html#aed8ed779159f5fd76d199a7cf8279d69", null ],
     [ "getNodeDataDescription", "classhopsan_1_1MultiPort.html#a09b33ae1ea6746d06d98e536728d4019", null ],
     [ "getNodeDataDescriptions", "classhopsan_1_1MultiPort.html#a42a5b5f9ca0933bde6b965676bc421ba", null ],
     [ "getNodeDataIdFromName", "classhopsan_1_1MultiPort.html#ac198ddc36b2db19988034d6fb588b123", null ],
     [ "getNodeDataPtr", "classhopsan_1_1MultiPort.html#aa662502340ecaf3529f6b9e9464267cd", null ],
-    [ "getNodeDataVector", "classhopsan_1_1MultiPort.html#a6184bc2e895d1f0019821a959f7c10a6", null ],
-    [ "getNodeDataVector", "classhopsan_1_1MultiPort.html#afc1654f7860c00527169c119f3a6eb20", null ],
+    [ "getNodeDataVector", "classhopsan_1_1MultiPort.html#a3af3296efcf0d9393dae27971865355f", null ],
+    [ "getNodeDataVector", "classhopsan_1_1MultiPort.html#a7bd434e048ddbb39cdc6eb8a06da896a", null ],
     [ "getNodePtr", "classhopsan_1_1MultiPort.html#aa41b9426d64498f3fab0d64a0ab4d4d5", null ],
     [ "getNodePtr", "classhopsan_1_1MultiPort.html#a6440e37f643d97e1f05af916ed3d31df", null ],
-    [ "getNumPorts", "classhopsan_1_1MultiPort.html#a24af6d6117407c00f9ac8016549897eb", null ],
     [ "getPortType", "classhopsan_1_1MultiPort.html#ad3f5ec1a1ccde5949a02c8200fbf9513", null ],
     [ "getStartValue", "classhopsan_1_1MultiPort.html#a9fe5c9c67cf69f2fb36c2ab3bc21027b", null ],
     [ "haveLogData", "classhopsan_1_1MultiPort.html#ad67e6463224fab788a87dc79483e6ce7", null ],
@@ -28,12 +24,7 @@ var classhopsan_1_1MultiPort =
     [ "readNode", "group__ComponentSimulationFunctions.html#gab4160d172bac363b50a6a0123d18f128", null ],
     [ "readNodeSafe", "group__ComponentSimulationFunctions.html#gafe95214982a59a535a50bb8d8bd2b2ef", null ],
     [ "removeSubPort", "classhopsan_1_1MultiPort.html#a7ee89bd0ee89341018dd36dba343f0e7", null ],
-    [ "setEnableLogging", "classhopsan_1_1MultiPort.html#a347ff2d184ad61b6040573e511afc34a", null ],
     [ "setNode", "classhopsan_1_1MultiPort.html#a8bdab2c465054b7460e81dee2eddc26a", null ],
     [ "writeNode", "group__ComponentSimulationFunctions.html#gac478c4f77b1aa1dcc7201693d80f128f", null ],
-    [ "writeNodeSafe", "group__ComponentSimulationFunctions.html#ga79d16b15254ca2e39181de4378d01db9", null ],
-    [ "Component", "classhopsan_1_1MultiPort.html#a90717717700965c100968cff0188e244", null ],
-    [ "ComponentSystem", "classhopsan_1_1MultiPort.html#aa85520f8d6a79a87b01fba96fafa6f39", null ],
-    [ "ConnectionAssistant", "classhopsan_1_1MultiPort.html#a473d670798d533fed6422a2fcc85d3de", null ],
-    [ "mSubPortsVector", "classhopsan_1_1MultiPort.html#a8c58ff3461ecfa57bd7b11c607a101b9", null ]
+    [ "writeNodeSafe", "group__ComponentSimulationFunctions.html#ga79d16b15254ca2e39181de4378d01db9", null ]
 ];

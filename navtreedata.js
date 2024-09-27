@@ -52,7 +52,10 @@ var NAVTREE =
       ] ]
     ] ],
     [ "For Hopsan Developers", "page_hopsandevelopment.html", "page_hopsandevelopment" ],
-    [ "Modules", "modules.html", "modules" ],
+    [ "Constrained Simplex Algorithm", "constrained-simplex-algorithm.html", [
+      [ "References", "constrained-simplex-algorithm.html#References", null ]
+    ] ],
+    [ "Topics", "topics.html", "topics" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
@@ -61,7 +64,7 @@ var NAVTREE =
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
+        [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ]
   ] ]
@@ -69,14 +72,10 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"classhopsan_1_1ComponentSystem.html#a461ec78ddbdbc1c0444fa3cff451ea5e",
-"classhopsan_1_1HVector.html#a47abe965a802743bd9b47018efeb94f0",
-"classhopsan_1_1Node.html#ad9ce33f8e76a45930d946923345a0174",
-"classhopsan_1_1Port.html#a7e60130e9a087d53f093df8e861a316e",
-"functions_k.html",
-"group__NodeMechanicRotational.html#gga69ae0566b4c25aaa8d4a34c9a3880023a7e330b42acf763746ee1a987658e6c64",
-"userScriptingPageHcomPage.html#rmvar"
+"annotated.html",
+"classhopsan_1_1HopsanCoreMessageHandler.html#a691edff0f17c13c3349082e5064ef39f",
+"classhopsan_1_1SystemPort.html#af61f6b3e7b032d40d8ec36fd7f7b8a10",
+"page_hopsandependencies.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

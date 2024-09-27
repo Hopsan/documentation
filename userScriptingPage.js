@@ -75,6 +75,7 @@ var userScriptingPage =
         [ "elog", "userScriptingPageHcomPage.html#elog", null ]
       ] ],
       [ "Model Commands", "userScriptingPageHcomPage.html#modelcommands", [
+        [ "dico", "userScriptingPageHcomPage.html#dico", null ],
         [ "load", "userScriptingPageHcomPage.html#load", null ],
         [ "revert", "userScriptingPageHcomPage.html#revert", null ],
         [ "loadr", "userScriptingPageHcomPage.html#loadr", null ],

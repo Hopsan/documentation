@@ -1,13 +1,5 @@
 var classhopsan_1_1NodeMechanic2D =
 [
-    [ "DataIndexEnumOldT", "classhopsan_1_1NodeMechanic2D.html#a92211e6f3255125b5a5c9490dccf9d80", [
-      [ "VELOCITY", "classhopsan_1_1NodeMechanic2D.html#a92211e6f3255125b5a5c9490dccf9d80a06e15744a8bd69fceeeb39ab3614b3f6", null ],
-      [ "FORCE", "classhopsan_1_1NodeMechanic2D.html#a92211e6f3255125b5a5c9490dccf9d80a2a4d3752e9aa5f28fc2dacb0f948de06", null ],
-      [ "POSITION", "classhopsan_1_1NodeMechanic2D.html#a92211e6f3255125b5a5c9490dccf9d80ad34d5395053a1781444508e570283be1", null ],
-      [ "WAVEVARIABLE", "classhopsan_1_1NodeMechanic2D.html#a92211e6f3255125b5a5c9490dccf9d80a054fa08ca6a8a54b95cf0f3962a86c22", null ],
-      [ "CHARIMP", "classhopsan_1_1NodeMechanic2D.html#a92211e6f3255125b5a5c9490dccf9d80af31b60cb204380afd638083acd7fd6b4", null ],
-      [ "EQMASS", "classhopsan_1_1NodeMechanic2D.html#a92211e6f3255125b5a5c9490dccf9d80a69f3f0c57364d767a691885ef2ecd393", null ]
-    ] ],
     [ "DataIndexEnumT", "group__NodeMechanic.html#ga69ae0566b4c25aaa8d4a34c9a3880023", [
       [ "AngleR", "group__NodeMechanic.html#gga69ae0566b4c25aaa8d4a34c9a3880023a63c7415621915b354c160f27a114f641", null ],
       [ "AngularVelocityR", "group__NodeMechanic.html#gga69ae0566b4c25aaa8d4a34c9a3880023a03b8c21652be78d100424bc01e4713ac", null ],
@@ -28,6 +20,5 @@ var classhopsan_1_1NodeMechanic2D =
       [ "CharImpedanceY", "group__NodeMechanic.html#gga69ae0566b4c25aaa8d4a34c9a3880023af79c8728e0fad71c9151669d8374a59e", null ],
       [ "EquivalentMassY", "group__NodeMechanic.html#gga69ae0566b4c25aaa8d4a34c9a3880023a5dfecfbdaa73e7f89c651dcfeb816ee5", null ],
       [ "DataLength", "group__NodeMechanic.html#gga69ae0566b4c25aaa8d4a34c9a3880023a7e330b42acf763746ee1a987658e6c64", null ]
-    ] ],
-    [ "CreatorFunction", "classhopsan_1_1NodeMechanic2D.html#a9922e2b6d467cee2b57fc405cdf13565", null ]
+    ] ]
 ];

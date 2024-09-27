@@ -8,6 +8,5 @@ var classhopsan_1_1NodeHydraulicTemperature =
       [ "CharImpedance", "group__NodeHydraulicTemperature.html#gga69ae0566b4c25aaa8d4a34c9a3880023a7ced9e00781d8d45ed4b91f809afe848", null ],
       [ "HeatFlow", "group__NodeHydraulicTemperature.html#gga69ae0566b4c25aaa8d4a34c9a3880023a75b46035c7545e73cb449d8b59605a36", null ],
       [ "DataLength", "group__NodeHydraulicTemperature.html#gga69ae0566b4c25aaa8d4a34c9a3880023a7e330b42acf763746ee1a987658e6c64", null ]
-    ] ],
-    [ "CreatorFunction", "classhopsan_1_1NodeHydraulicTemperature.html#a9922e2b6d467cee2b57fc405cdf13565", null ]
+    ] ]
 ];

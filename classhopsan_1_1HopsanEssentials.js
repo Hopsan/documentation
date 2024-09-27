@@ -22,18 +22,14 @@ var classhopsan_1_1HopsanEssentials =
     [ "getNumWarningMessages", "classhopsan_1_1HopsanEssentials.html#a610f8fec7627298b383c7af0bfada82b", null ],
     [ "getRegisteredComponentTypes", "classhopsan_1_1HopsanEssentials.html#a8ba205939c6a08616e6ac80d866125fd", null ],
     [ "getRegisteredNodeTypes", "classhopsan_1_1HopsanEssentials.html#ad778a3b3714fd6737be3d7664a9c5d1c", null ],
-    [ "getSimulationHandler", "classhopsan_1_1HopsanEssentials.html#a44400287351ceb95a7c832ab705489c1", null ],
     [ "hasComponent", "classhopsan_1_1HopsanEssentials.html#a0e70a7a9252282941db06227baa7d124", null ],
     [ "haveQuantity", "classhopsan_1_1HopsanEssentials.html#a6660594959b49f327889d8eb902e57f0", null ],
     [ "isCore64Bit", "classhopsan_1_1HopsanEssentials.html#a5c30fcdcd9c993561c7d5c397261b213", null ],
-    [ "isCoreDebugCompiled", "classhopsan_1_1HopsanEssentials.html#a56685787617e5b3a2cc4107caffc7ead", null ],
     [ "loadExternalComponentLib", "classhopsan_1_1HopsanEssentials.html#ac6baddc62a28d09b3309371e3d6b0e54", null ],
     [ "loadHMFModel", "classhopsan_1_1HopsanEssentials.html#a26146e5ff6f10a762964405a50dc9506", null ],
-    [ "loadHMFModel", "classhopsan_1_1HopsanEssentials.html#a0e5552e47994468ef36e065e69183ce1", null ],
     [ "loadHMFModelFile", "classhopsan_1_1HopsanEssentials.html#a51d19aff21e5591b3cabe0437f7592df", null ],
     [ "openCoreLogFile", "classhopsan_1_1HopsanEssentials.html#a72e305b770105f05b9ad2e31234707f7", null ],
     [ "removeComponent", "classhopsan_1_1HopsanEssentials.html#add3a04754125752a608181c8a736169b", null ],
-    [ "removeNode", "classhopsan_1_1HopsanEssentials.html#a8f4cbee01d593c923505cfe05b20b394", null ],
     [ "reserveComponentTypeName", "classhopsan_1_1HopsanEssentials.html#a073ca6b93f201d0807f54d909b4e7b52", null ],
     [ "unLoadExternalComponentLib", "classhopsan_1_1HopsanEssentials.html#a966591c2dcd27bfd2fe1d66e3c8823c7", null ]
 ];
