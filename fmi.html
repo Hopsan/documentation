@@ -60,11 +60,33 @@ $(function(){initNavTree('fmi.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Functional Mock-up Interface</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>The Functional Mock-up Interface is an open interface for communication between simulation environments. It is developed by the MODELISAR project, and is currently supported by more than 30 simulation tools. The concept is to exchange Functional Mock-up Units (FMUs) between different programs. An FMU is a zip-file with the file ending ".fmu", containing an XML description file and a binary file (DLL in Windows or SO in Linux) with a plain C interface which the host program can link against. It can also contain graphics, documentation and source code files.</p>
+<div class="textblock"><p>The Functional Mock-up Interface is an free standard for exchanging simulation models between simulation tools. It is maintained by the Modelica Association and is currently supported by more than 220 simulation tools. The concept is to exchange Functional Mock-up Units (FMUs) between different programs. An FMU is a zip-file with the file ending ".fmu", containing an XML description file and a binary file (DLL in Windows or SO in Linux) with a plain C interface which the host program can link against. It can also contain graphics, documentation and source code files.</p>
 <h1><a class="anchor" id="export-fmu"></a>
 Exporting a Functional Mock-up Unit</h1>
 <p>Hopsan models can be exported to FMUs by clicking on the Export to FMU button. Then choose an empty folder. All required files will be exported, compiled and compressed. Model inputs and outputs can be specified by using interface components.</p>
 <p> <table style="border-spacing: 20px 10px" border="0"> <tr><td><img src="export_fmu_icon.png" border=0></td><td><b> Export to FMU</b></td></tr> </table>  </p>
+<h2><a class="anchor" id="export-fmu-compatibility"></a>
+Compatibility</h2>
+<p>Example FMUs exported from Hopsan are available at <a href="https://github.com/Hopsan/example-fmus/">https://github.com/Hopsan/example-fmus/</a>. All example FMUs have been verified with the FMU Check tool available at <a href="https://fmu-check.herokuapp.com/">https://fmu-check.herokuapp.com/</a>.</p>
+<p>FMUs exported from Hopsan have been successfully imported and simulated in the following importing tools:</p>
+<a class="anchor" id="multi_row"></a>
+<table class="doxtable">
+<caption>Compatibility with importing tools</caption>
+<tr>
+<th>tool </th><th>FMI 1.0 </th><th>FMI 2.0 </th><th>FMI 3.0 </th></tr>
+<tr>
+<td>Hopsan </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td></tr>
+<tr>
+<td>OMSimulator </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td></tr>
+<tr>
+<td>Adams </td><td></td><td><span class="emoji">&#x2714;</span> </td><td></td></tr>
+<tr>
+<td>AMESim </td><td></td><td><span class="emoji">&#x2714;</span> </td><td></td></tr>
+<tr>
+<td>Simulink </td><td></td><td><span class="emoji">&#x2714;</span> </td><td></td></tr>
+<tr>
+<td>PyFMI </td><td></td><td><span class="emoji">&#x2714;</span> </td><td></td></tr>
+</table>
 <h2><a class="anchor" id="export-fmu-prerequisites"></a>
 Prerequisites</h2>
 <ul>
@@ -73,7 +95,49 @@ Prerequisites</h2>
 <h1><a class="anchor" id="import-fmu"></a>
 Importing a Functional Mock-up Unit</h1>
 <p>FMUs from other programs (or from Hopsan itself) can be imported by clicking on the import from FMU icon. If all goes well they will appear as components in the component library.</p>
-<p> <table style="border-spacing: 20px 10px" border="0"> <tr><td><img src="import_fmu_icon.png" border=0></td><td><b> Import from FMU</b></td></tr> </table>  </p>
+<p> <table style="border-spacing: 20px 10px" border="0"> <tr><td><img src="import_fmu_icon.png" border=0></td><td><b> Impohrt from FMU</b></td></tr> </table>  </p>
+<h2><a class="anchor" id="import-fmu-compatibility"></a>
+Compatibility</h2>
+<p>Hopsan FMU import is validated against the Reference FMUs, available att <a href="https://github.com/modelica/Reference-FMUs">https://github.com/modelica/Reference-FMUs</a>. Below is the current compatibility:</p>
+<a class="anchor" id="multi_row"></a>
+<table class="doxtable">
+<caption>Compatibility with reference FMUs</caption>
+<tr>
+<th>file </th><th>FMI 1.0 </th><th>FMI 2.0 </th><th>FMI 3.0 </th></tr>
+<tr>
+<td>BouncingBall.fmu </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td></tr>
+<tr>
+<td>Clocks.fmu </td><td>N/A </td><td>N/A </td><td><span class="emoji">&#x2716;</span> </td></tr>
+<tr>
+<td>Dahlquist.fmu </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td></tr>
+<tr>
+<td>Feedthrough.fmu </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td></tr>
+<tr>
+<td>Resource.fmu </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td></tr>
+<tr>
+<td>Stair.fmu </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td></tr>
+<tr>
+<td>StateSpace.fmu </td><td>N/A </td><td>N/A </td><td><span class="emoji">&#x2716;</span> </td></tr>
+<tr>
+<td>VanDerPol.fmu </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td></tr>
+</table>
+<p>FMUs from the following tools have successfully been imported and simulated in Hopsan:</p>
+<a class="anchor" id="multi_row"></a>
+<table class="doxtable">
+<caption>Compatibility with FMUs exported from other tools</caption>
+<tr>
+<th>tool </th><th>FMI 1.0 </th><th>FMI 2.0 </th><th>FMI 3.0 </th></tr>
+<tr>
+<td>Hopsan </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td><td><span class="emoji">&#x2714;</span> </td></tr>
+<tr>
+<td>OpenModelica </td><td></td><td><span class="emoji">&#x2714;</span> </td><td></td></tr>
+<tr>
+<td>Dymola </td><td></td><td><span class="emoji">&#x2714;</span> </td><td></td></tr>
+<tr>
+<td>Simulink </td><td></td><td><span class="emoji">&#x2714;</span> </td><td></td></tr>
+<tr>
+<td>LS-DYNA </td><td></td><td><span class="emoji">&#x2714;</span> </td><td></td></tr>
+</table>
 <h2><a class="anchor" id="export-fmu-prerequisites"></a>
 Prerequisites</h2>
 <ul>
@@ -85,7 +149,7 @@ Prerequisites</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Sep 27 2024 15:37:52 for Hopsan by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Fri Oct 11 2024 15:47:49 for Hopsan by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"page_codingconventions.html#variables":[2,0,1],
+"page_componentdevelopment.html":[0,2],
 "page_hopsandependencies.html":[1],
 "page_hopsandependencies.html#sec_gplv3":[1,2,0],
 "page_hopsandependencies.html#sec_lgplv21":[1,2,1],

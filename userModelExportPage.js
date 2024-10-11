@@ -11,8 +11,11 @@ var userModelExportPage =
     ] ],
     [ "Functional Mock-up Interface", "fmi.html", [
       [ "Exporting a Functional Mock-up Unit", "fmi.html#export-fmu", [
+        [ "Compatibility", "fmi.html#export-fmu-compatibility", null ],
         [ "Prerequisites", "fmi.html#export-fmu-prerequisites", null ]
       ] ],
-      [ "Importing a Functional Mock-up Unit", "fmi.html#import-fmu", null ]
+      [ "Importing a Functional Mock-up Unit", "fmi.html#import-fmu", [
+        [ "Compatibility", "fmi.html#import-fmu-compatibility", null ]
+      ] ]
     ] ]
 ];

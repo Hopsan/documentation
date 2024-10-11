@@ -75,7 +75,7 @@ var NAVTREEINDEX =
 "annotated.html",
 "classhopsan_1_1HopsanCoreMessageHandler.html#a691edff0f17c13c3349082e5064ef39f",
 "classhopsan_1_1SystemPort.html#af61f6b3e7b032d40d8ec36fd7f7b8a10",
-"page_hopsandependencies.html"
+"page_codingconventions.html#variables"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
